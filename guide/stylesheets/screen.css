@@ -136,9 +136,9 @@ body.bp form.inline p {
 /* line 22, ../src/screen.scss */
 body.bp {
   line-height: 1.5;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Constantia", Arial, Helvetica, sans-serif;
   color: #333333;
-  font-size: 75%;
+  font-size: 18px;
 }
 /* line 65, ../../../../../usr/local/lib/ruby/gems/1.8/gems/compass-0.10.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body.bp h1, body.bp h2, body.bp h3, body.bp h4, body.bp h5, body.bp h6 {
