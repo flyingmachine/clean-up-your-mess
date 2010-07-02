@@ -1,0 +1,11 @@
+/***********************************************************************************************
+
+  CSS on Sails Framework
+  Internet Explorer 8 & Under stylesheet
+  Author: XHTMLized (http://www.xhtmlized.com/)
+
+***********************************************************************************************/
+* { zoom: 1; }
+
+.ie6 #content h2 span,
+.ie7 #content h2 span { margin: -24px 0 0 0; }
