@@ -177,3 +177,11 @@ a:hover, a:active { color: #477c00; text-decoration: none; }
 
 /* 3.1 Home page
 -----------------------------------------------------------------------------------------------*/
+
+/* Stroop Effect */
+.red {color:red;}
+.green {color:green;}
+.blue {color:blue;}
+.orange {color:orange;}
+.yellow {color:#eee177;}
+.purple {color:purple;}
