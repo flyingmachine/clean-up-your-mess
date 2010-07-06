@@ -67,14 +67,6 @@ th { text-align: left; }
 
 @font-face {
 	font-family: 'Quicksand';
-	src: url('quicksand_bold_oblique-webfont.eot');
-	src: local('☺'), url('quicksand_bold_oblique-webfont.ttf') format('truetype');
-	font-weight: bold;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Quicksand';
 	src: url('quicksand_bold-webfont.eot');
 	src: local('☺'), url('quicksand_bold-webfont.ttf') format('truetype');
 	font-weight: bold;
@@ -160,6 +152,7 @@ a:hover, a:active { color: #477c00; text-decoration: none; }
 #content .hr { display: block; clear: both; height: 49px; background: url(../images/bg_hr.png) no-repeat 0 14px; }
 #content img.right { float: right; }
 
+h2,h3,h4,h5 {font-style:normal;}
 
 /* 2.5 Sidebar
 -----------------------------------------------------------------------------------------------*/
