@@ -185,3 +185,7 @@ a:hover, a:active { color: #477c00; text-decoration: none; }
 .orange {color:orange;}
 .yellow {color:#eee177;}
 .purple {color:purple;}
+
+img.topalign {
+  margin-top:6px;
+}
