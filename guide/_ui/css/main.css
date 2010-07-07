@@ -173,7 +173,7 @@ h2,h3,h4,h5 {font-style:normal;}
 
 /* 3.2 Preface
 -----------------------------------------------------------------------------------------------*/
-#preface-content{padding:20px 0;}
+#preface-content{padding:0 0 20px;}
 
 
 /* Stroop Effect */
