@@ -1,0 +1,8 @@
+What makes a good design? It should be easy for people to "get" your designs. But what does that mean?
+
+-- get an overview: do I want to be here? Is this relevant to me? Is this the right page?
+-- scanning/learning: pick up the main ideas
+-- orienting/landmarks: returning to a site or document, allows me to find my way to the content I care about
+-- finding most important info: ex. getting phone number
+
+Your design needs to communicate factual information: What time is the party? How much profit was made? By what date is the ransom due?
