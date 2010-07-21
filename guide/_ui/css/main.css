@@ -113,7 +113,7 @@ em { font-style: italic; }
 del { text-decoration: line-through; }
 th { font-weight: normal; }
 address, cite, dfn { font-style: normal; }
-li { list-style: none; }
+ul li { list-style: none; }
 abbr, acronym { border-bottom: 1px dotted #999; cursor: help; }
 input, textarea, select { font-family: Verdana, "Arial", "Helvetica", sans-serif; }
 a, a:visited { color: #477c00; text-decoration: underline; }
@@ -187,3 +187,7 @@ h2,h3,h4,h5 {font-style:normal;}
 img.topalign {
   margin-top:6px;
 }
+
+/* List */
+#content ul, #content ol { line-height: 27px; padding: 0 0 27px 7px; }
+#content ol li {margin-left:24px;}
