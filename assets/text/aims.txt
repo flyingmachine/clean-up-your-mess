@@ -6,3 +6,8 @@ What makes a good design? It should be easy for people to "get" your designs. Bu
 -- finding most important info: ex. getting phone number
 
 Your design needs to communicate factual information: What time is the party? How much profit was made? By what date is the ransom due?
+
+---
+The people viewing your work are seeking information to answer questions like "Is this document the one I'm looking for?" and "What text explains this chart?" and "By what date is the ransom due?". Our brains automatically, unconsciously use visual cues in order to find this information. Visual design is about making it easy for brains to do this work.
+
+You convey ideas by the way you arrange a design's elements in relation to each other. These ideas are understood immediately, if not consciously, by the people viewing your designs. 

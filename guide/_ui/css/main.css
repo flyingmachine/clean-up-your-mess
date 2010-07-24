@@ -147,7 +147,7 @@ a:hover, a:active { color: #477c00; text-decoration: none; }
 .opera #content h2 span { margin: -29px 0 0 0; }
 #content h3 { clear: both; margin: 0 0 20px 0; padding: 0 0 0 10px; font-family: 'Quicksand'; font-size: 30px; background: url(../images/bg_h3.png) no-repeat 0 17px; }
 #content h4 { clear: both; margin: 0 0 22px 0; padding: 44px 0 0 10px; font-family: 'Quicksand'; font-size: 30px; background: url(../images/bg_h4.png) no-repeat 0 0; }
-#content h5 { clear: both; margin: 0 0 20px 0; padding: 0 0 0 10px; font-family: 'Quicksand'; font-size: 20px; background: url(../images/bg_h3.png) no-repeat 0 15px; }
+#content h5 { clear: both; margin: 0 0 20px 0; padding: 0 0 0 10px; font-family: 'Quicksand'; font-size: 21px; background: url(../images/bg_h3.png) no-repeat 0 15px; }
 #content p { line-height: 27px; padding: 0 0 27px 7px; }
 #content .hr { display: block; clear: both; height: 49px; background: url(../images/bg_hr.png) no-repeat 0 14px; }
 #content img.right { float: right; }
