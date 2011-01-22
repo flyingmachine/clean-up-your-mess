@@ -1,0 +1,37 @@
+h1. Clean up your mess
+
+h2. Preface
+blah
+
+h2. What Makes a Good Design a Good Design?
+
+At the very least, a good design meets the informational needs of the intended audience. It is well organized and supports findability.
+
+h3. Informational Needs
+* Deciding relevance.
+* Getting an overview.
+* Basic comprehension.
+* Retrieving buried details.
+* Finding actionable details.
+
+These needs are met when a document exhibits organization and findability.
+
+h3. Organization
+
+Content is logically structured
+
+h3. Findability
+
+It's easy to identify the different kinds of information. Different topics and different functions.
+
+h2. How do I, Joe Schmoe (or Jane Schmane) Create a Good Design?
+
+A good design takes advantage of the way our visual brain works in order to exhibit organization and findability.
+
+h3. Visual Thinking
+
+You convey ideas by...
+
+h3. The Most Important Thing to Remember (This is Very Important! Remember it!)
+
+Your brain sees visual differences as meaningful. If there's not much of a difference, it's hard to tell if it's meaningful. That's what causes frustration! That's what makes people tear out their hair, crying "What the hell did she meeeeeeeean?!?!?!"
