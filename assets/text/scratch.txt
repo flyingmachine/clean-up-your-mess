@@ -1,11 +1,13 @@
-h1. Clean up your mess
+h1. Clean up your mess - A Guide to Visual Communication
 
 h2. Preface
-blah
+If you're like most people, you're a baby when it comes to communicating visually. You have a vague sense of what you want but you can't articulate it or make it come about; all you can do is point and cry. This guide will help you become a visual adult. It will help you quickly see why something is confusing, and how to fix it. It will help you communicate with conscious skill.
 
-h2. What Makes a Good Design a Good Design?
+Beyond giving you practical tools, I hope this guide inspires you. One of my favorite quotes is, "I open my eyes and I see paradise." What a great gift vision is. What an incredible way to connect to the world around us and to each other. My hope is that this guide will allow you to communicate with a little more creativity and a little more control &ndash; and that you'll want to learn more.
 
-At the very least, a good design meets the informational needs of the intended audience. It is well organized and supports findability.
+h2. What Makes for Good Visual Communication?
+
+At the very least, a document (memo, report, whatever) should meet informational needs of the intended audience. It should be well organized and support findability.
 
 h3. Informational Needs
 * Deciding relevance.
@@ -24,7 +26,7 @@ h3. Findability
 
 It's easy to identify the different kinds of information. Different topics and different functions.
 
-h2. How do I, Joe Schmoe (or Jane Schmane) Create a Good Design?
+h2. How do I, Jane Schmane, Communicate So Clearly It's Like a Vulcan Mind Meld?
 
 A good design takes advantage of the way our visual brain works in order to exhibit organization and findability.
 
