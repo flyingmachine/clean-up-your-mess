@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    filewatcher (0.1.2)
+      trollop (>= 1.16.2)
+    haml (3.0.25)
+    trollop (1.16.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  filewatcher
+  haml
