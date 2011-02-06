@@ -191,3 +191,9 @@ img.topalign {
 /* List */
 #content ul, #content ol { line-height: 27px; padding: 0 0 27px 7px; }
 #content ol li {margin-left:24px;}
+
+/* FIXME */
+.examples {
+  background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
+  padding-bottom:17px;
+}
