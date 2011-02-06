@@ -196,4 +196,9 @@ img.topalign {
 .examples {
   background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
   padding-bottom:17px;
+  margin-top:-5px;
+}
+
+.marginal {
+  font-size:12px;
 }

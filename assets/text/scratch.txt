@@ -42,3 +42,16 @@ Your brain sees visual differences as meaningful. If there's not much of a diffe
 importance of attention
 attention as a limited resource
 attention as fuel; wanting to be fuel efficient
+
+----
+we're going to dissect the improvements made so that you can understand how to improve your own work.
+
+but before that we need to understand what exactly we mean by "better". It's not enough to say that a design is better because "I like it more" or "It just looks better."
+
+what makes something better?
+
+communication
+
+efficiently transfer information
+
+the "language" of the visual brain
