@@ -1,4 +1,5 @@
 source :rubygems
 
-gem "haml"
+gem 'haml'
 gem 'filewatcher'
+gem 'extensions'
