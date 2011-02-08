@@ -1,13 +1,13 @@
 require 'rubygems'
 require 'extensions/array'
 
-colors = %w{red green blue orange yellow purple}
+colors = %w{red green blue yellow purple}
 html = ""
 
 words_used = []
 classnames_used = []
 
-80.times do 
+60.times do 
   classname = (colors - classnames_used).rand
   classnames_used << classname
   classnames_used = [] if classnames_used.size == colors.size
