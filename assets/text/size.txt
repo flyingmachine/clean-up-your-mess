@@ -20,3 +20,12 @@ Remember that our brains try to assign meaning to visual differences. Why is thi
 
 The differences in size serves to differentiate. Large items also serve as visual landmarks. Because they stand out so much, it's easy for our eyes to find them when searching for useful content. Also makes the text easier to read from a distance. Makes the text easier to read.  Size communicates relative importance. Important to whom? Important to the person viewing your document.
 --------------
+What does the size of an element tell you about that element? How important is it? How does it help you in finding the information you want?
+
+What are the main ideas?
+- Size indicates importance
+- Size functions as visual landmarks
+
+Ok so how does size indicate importance. Bigger things are more important - why? You "contract" with the audience. The largest text will tell you most of what you need to know. Is any more explanation needed?
+
+Size is used to direct attention. Help the user efficiently direct his attention.
