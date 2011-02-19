@@ -10,3 +10,13 @@ Inherent meaning
 Just give examples of crappy versions and see what can be done to improve them?
 
 any studies on findability based on size?
+
+-------------
+What are the differences in how size is used in the two flyers? How do the sizes of the different elements compare to each other? How does this improve or detract from the understandability of the flyers?
+
+The flyer on the right differs from the one on the left in two key ways. First, there is more regularity in its use of size. Second, the headings are much larger than the body text.
+
+Remember that our brains try to assign meaning to visual differences. Why is this text bold? why is this text slightly smaller, but in all caps? Without any regularity, there's no way to compare, no way to assign meaning. Regularity gives you a "base state". The first flyer essentially has no regularity to size. This makes it impossible to scan quickly. It makes it impossible to differentiate the different kinds of content. Everything has to be given the same amount of attention.
+
+The differences in size serves to differentiate. Large items also serve as visual landmarks. Because they stand out so much, it's easy for our eyes to find them when searching for useful content. Also makes the text easier to read from a distance. Makes the text easier to read.  Size communicates relative importance. Important to whom? Important to the person viewing your document.
+--------------
