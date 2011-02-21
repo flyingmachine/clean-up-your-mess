@@ -1,2 +1,2 @@
 #!/bin/bash
-filewatcher -i 0.2 "index.haml" "haml index.haml index.html"
+filewatcher -i 0.2 "index.haml" "haml index.haml index.html && open -g index.html"
