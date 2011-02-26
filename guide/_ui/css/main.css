@@ -202,3 +202,9 @@ img.topalign {
 .marginal {
   font-size:12px;
 }
+
+.caption {
+  font-size:12px;
+  font-style:italic;
+  text-align:center;
+}

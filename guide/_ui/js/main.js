@@ -86,6 +86,10 @@ $(document).ready(function() {
 		$('input[type=image]').addClass("image");
 
 	}
-
+  
+  $(".zoomable").fancybox({
+    'transitionIn'	: 'elastic',
+		'transitionOut'	: 'elastic'
+  })
 });
 
