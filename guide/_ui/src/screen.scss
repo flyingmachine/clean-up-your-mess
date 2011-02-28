@@ -1,0 +1,136 @@
+//** SCREEN STYLES **//
+
+// Imports --------------------------------------------------------------
+
+@import "defaults";
+
+/* Layout -------------------------------------------------------------- */
+
+@include susy;
+
+// change '.container' to match your HTML container element
+// or @extend it to apply multiple containers on your site.
+#page {
+  @include container;
+  @include show-grid("grid.png"); }
+
+// show-grid loads a 64+16x24 grid image by default
+// For other grid settings, run `compass grid-img 30+10x20`
+// Where 30 is the column width, 10 is the gutter width,
+// and 20 is the (optional) line-height.
+
+/* Styles -------------------------------------------------------------- */
+
+#header {@include full}
+#header h1 { height: 100px; }
+#header h1 a { display: block; height: 100px; background: url(../images/logo_cleanupyourmess.png) no-repeat; text-indent: -8000px; }
+
+#footer .footer-top:after,
+#navigation:after,
+#header:after {
+  @include clearfix;
+}
+
+
+#content h2.preface {
+  clear:both;
+  @include adjust-font-size-to(30px);
+  @include sans-family;
+  background: url(../images/bg_h3.png) no-repeat 0 17px; 
+}
+#content h2 {
+  clear:both;
+  @include full;
+  padding-left: gutter();
+  @include adjust-font-size-to(30px);
+  @include sans-family;
+  background: url(../images/bg_h4.png) no-repeat 0 0;
+  @include trailer(1, 30px);
+}
+#content h3 {
+  clear:both;
+  @include full;
+  @include adjust-font-size-to(21px);
+  @include sans-family;
+  background: url(../images/bg_h3.png) no-repeat 0 18px; 
+  @include trailer(1, 21px);
+}
+
+#content .hr { display: block; clear: both; height: 49px; background: url(../images/bg_hr.png) no-repeat 0 14px; }
+#content img.right { float: right; }
+
+h2,h3,h4,h5 {font-style:normal;}
+
+.main-content {
+  @include columns(8);
+  @include alpha;
+}
+
+.side-content {
+  @include columns(3);
+  @include prefix(1);
+  @include omega;
+}
+
+.spread {
+  @include full;
+  background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
+}
+
+/* 2.5 Sidebar
+-----------------------------------------------------------------------------------------------*/
+
+#sidebar {  }
+
+/* 2.6 Footer
+-----------------------------------------------------------------------------------------------*/
+
+#footer {  }
+
+/* 3. PAGES
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+/* 3.1 Home page
+-----------------------------------------------------------------------------------------------*/
+
+/* 3.2 Preface
+-----------------------------------------------------------------------------------------------*/
+#preface-content{padding:0 0 20px;}
+
+
+/* Stroop Effect */
+.red {color:red;}
+.green {color:green;}
+.blue {color:blue;}
+.orange {color:orange;}
+.yellow {color:#eee177;}
+.purple {color:purple;}
+
+img.topalign {
+  margin-top:6px;
+}
+
+/* List */
+#content {
+  ol, ul {
+    
+  }
+}
+
+/* FIXME */
+.examples {
+  background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
+  padding-bottom:17px;
+  margin-top:-5px;
+}
+
+.marginal {
+  @include adjust-font-size-to(12px)
+}
+
+.caption {
+  font-size:12px;
+  font-style:italic;
+  text-align:center;
+}
