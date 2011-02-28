@@ -5,7 +5,7 @@
   %head
     %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
     %title Clean Up Your Mess - Home Page
-    %link{:href => "../compassed/stylesheets/screen.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "_ui/stylesheets/screen.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "_ui/fancybox/jquery.fancybox-1.3.4.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
 
     %script{:src => "_ui/js/jquery.min.js", :type => "text/javascript"}
@@ -14,16 +14,13 @@
     
   %body.home
     #page
-      #header.container_24
+      #header
         %h1.cleanupyourmess
           %a{:href => "#", :rel => "home", :title => "Go to homepage"}
             %span.text Clean Up Your Mess
-
-      #content.container_24
-        .grid_24.alpha.omega
-          %img{:src => "_ui/images/subtitle.png"}/
-
-          %h2.preface Preface
+        %img{:src => "_ui/images/subtitle.png"}/
+      #content
+        %h2.preface Preface
         #preface-content.alpha.omega
           .clearfix
             .grid_7
@@ -42,32 +39,28 @@
 
         %h2 1. What is Clean Design?
     
-        .grid_16
+        .main-content
           %p Have a look at the two flyers below. Which one is more appealing to you? Which one looks cleaner?
-      
+        
         = haml :flyers
-    
-        .grid_16
+        
+        .main-content
           %p If the one on the right looks cleaner to you, then &ndash; hooray! I've done my job. But what does it <em>mean</em> to "look cleaner"?
-    
-        .grid_24.alpha.omega
-          .grid_16
-            %p Whatever you're creating &mdash; a brochure, a resume, a web page, a party invitation &mdash; the basic purpose it must serve is to convey the information your audience is interested in. It must help your audience answer questions like "Is this document the one I'm looking for?" and "What text explains this chart?" and "By what time is the ransom due?" For example, the aikido flyer helps people answer, "What's this about?" and "When is it?" and "Where is it?".
-          .grid_6.prefix_1
-            %img{:src => "_media/images/brains/ransom.png"}/
-        .grid_16
+        .main-content
+          %p Whatever you're creating &mdash; a brochure, a resume, a web page, a party invitation &mdash; the basic purpose it must serve is to convey the information your audience is interested in. It must help your audience answer questions like "Is this document the one I'm looking for?" and "What text explains this chart?" and "By what time is the ransom due?" For example, the aikido flyer helps people answer, "What's this about?" and "When is it?" and "Where is it?".
+        .side-content
+          %img{:src => "_media/images/brains/ransom.png"}/
+        .main-content
           %p The two versions of the flyer provide the exact same information. The one on the right, however, makes it easier for people to find that information. Its visual structure more clearly reflects the structure of the content.
           %p That flyer is clean, then, because it helps you consume the information within it with less conscious effort. It's designed so that its visual qualities allow the brain's visual thinking capabilities to make correct assumptions about how the different bits of content are organized and about what's important.
-        .grid_24.alpha.omega
-          .grid_16
-            %p Visual thinking happens much more quickly than conscious, step-by-step logical thinking. For example, if you wanted to understand what the main ideas were from just the text of the aikido flyers, it would take much longer and be more tedious than it would to use even the "messy" flyer. You can see for yourself by looking at the text to the right.
-            %p To answer the question "What is clean design?" most succinctly: a clean design is one that supports visual thinking so people can meet their informational needs with a minimum of conscious effort.
-          .grid_6.prefix_1.marginal
-            %p Aikido. Beginner class. Starts Sunday, April 27, 2008, 1:00 - 2:00 p.m. 8-week course &mdash; $95. Adult class (12 and older). No martial arts experience necessary. Call to reserve a space. Regular classes. Tuesday 7:30 p.m. Thursday 7:45 p.m. Sunday 1:00 & 2:15 p.m. Come visit. Please come and visit any of our classes to determine if aikido is right for you!
+        .main-content
+          %p Visual thinking happens much more quickly than conscious, step-by-step logical thinking. For example, if you wanted to understand what the main ideas were from just the text of the aikido flyers, it would take much longer and be more tedious than it would to use even the "messy" flyer. You can see for yourself by looking at the text to the right.
+          %p To answer the question "What is clean design?" most succinctly: a clean design is one that supports visual thinking so people can meet their informational needs with a minimum of conscious effort.
+        .side-content.marginal
+          %p Aikido. Beginner class. Starts Sunday, April 27, 2008, 1:00 - 2:00 p.m. 8-week course &mdash; $95. Adult class (12 and older). No martial arts experience necessary. Call to reserve a space. Regular classes. Tuesday 7:30 p.m. Thursday 7:45 p.m. Sunday 1:00 & 2:15 p.m. Come visit. Please come and visit any of our classes to determine if aikido is right for you!
         
-        .grid_24.alpha.omega
-          %h3 1.1. Informational Needs
-        .grid_16
+        %h3 1.1. Informational Needs
+        .main-content
           %p People have the same basic visual needs when looking at a document you've designed:
           %ol
             %li
@@ -93,146 +86,75 @@
             %li <em>(Later, at home)</em> Now where was that number...
           %p The important to thing to remember is that you're not making your whatever-it-is-you're-making for you. You're making it to help someone else find the information she needs.
       
-        .grid_24.alpha.omega
-          %h3 1.2. Supporting Visual Thinking
-        .grid_16
+        %h3 1.2. Supporting Visual Thinking
+        .main-content
           %p You convey information by the way you arrange a design's elements in relation to each other. This information is understood immediately, if not consciously, by the people viewing your designs. This is great if the visual relationships are obvious and accurate, but if they're not, your audience is going to get confused. They'll have to examine your work carefully, going back and forth between the different parts to make sure they understand.
+        .main-content
           %p If you want to feel what this is like, try saying the colors of the words to the right. For example, for the first word you would say "red". Now, try saying the words themselves. Does your brain hurt yet?
           %p
             It's harder to say the color of each word than it is to say the word itself because our brains automatically determine the semantic meaning of the word. This conflicts with the identification of the color of the word, a process which is not automatic. Our brains must then resolve the conflicting interpretations of the visual stimuli, a process which takes work. [cite
             = succeed "]" do
               %a{:href => "http://en.wikipedia.org/wiki/Stroop_effect", :title => "Stroop effect - Wikipedia, the free encyclopedia"} stroop effect
           %p When you're creating a document, you want to eliminate these conflicts between automatically perceived meaning and actual meaning. The rest of this guide is dedicated to doing just that by explaining three visual features: size, proximity, and alignment. It will also explain a valuable tool: elimination. But before that...
-        .grid_6.prefix_1
-          %p
-            %span.red purple
-            %span.purple blue
-            %span.yellow green
-            %span.blue yellow
-            %span.green red
-            %span.purple red
-            %span.blue purple
-            %span.yellow green
-            %span.green yellow
-            %span.red blue
-            %span.yellow blue
-            %span.red yellow
-            %span.blue green
-            %span.purple red
-            %span.green purple
-            %span.green yellow
-            %span.red blue
-            %span.purple green
-            %span.yellow red
-            %span.blue purple
-            %span.purple yellow
-            %span.blue red
-            %span.yellow blue
-            %span.red green
-            %span.green purple
-            %span.red green
-            %span.blue red
-            %span.purple yellow
-            %span.green purple
-            %span.yellow blue
-            %span.blue purple
-            %span.purple green
-            %span.yellow red
-            %span.green blue
-            %span.red yellow
-            %span.green yellow
-            %span.yellow red
-            %span.red green
-            %span.blue purple
-            %span.purple blue
-            %span.green blue
-            %span.blue green
-            %span.yellow purple
-            %span.red yellow
-            %span.purple red
-            %span.purple green
-            %span.blue yellow
-            %span.red purple
-            %span.yellow blue
-            %span.green red
-            %span.green yellow
-            %span.blue green
-            %span.yellow red
-            %span.purple blue
-            %span.red purple
-            %span.blue yellow
-            %span.red purple
-            %span.green red
-            %span.yellow blue
+        .side-content
+          = haml :stroop
       
-        .grid_24.alpha.omega
-          %h3 1.3. The Most Important Thing to Remember
-        .grid_16
+        %h3 1.3. The Most Important Thing to Remember
+        .main-content
           %p The basic cause of messy design is slight, unintentional differences among elements. This causes your brain's visual processing to falter. First, your brain has to determine if there actually is a visual difference. Then, it has to determine the significance of that difference. Because the small discrepancies don't actually signify thing, you end up wasting your audience's brainpower. Strive for a consistent visual style where elements which are logically similar look similar to each other and look unambiguously different otherwise.
-        .grid_24.alpha.omega
-          %h2 2. Size
-        .grid_16
+        %h2 2. Size
+        .main-content
           %p
             Have another look at the aikido flyers:
         
         = haml :flyers
-        .grid_16
+        .main-content
           %p How do they use size differently? How do the differences contribute (or detract from) their understandability?
-        .grid_16
+        .main-content
           %p There are two main differences in how size is used between the two flyers. First, the contrast between the header text and the details is much greater; the header text is much larger. Second, size is used more consistently. In the original flyer, there are slight changes in font size between one block of text and the next, and no two blocks look quite alike. For example, the block starting with "Please come and visit" is slightly smaller, but in all caps and bold. In the improved flyer, the size of the text is treated consistently.
           %p These improvements serve to clearly reveal the roles of the different bits of text. The improved flyer makes it clear what's header text and what's detail text. Even if the text were in another language, you would be able to differentiate the headers from the details.
           %p Making these roles visually obvious helps your users find the info they need. We rely on headers to help us get an idea of what the document's about. We also use them to narrow in on the details we're most interested in. At the same time, we know to pay less attention to headers when we're going through detail text. 
           %p Using size to clearly distinguish the roles of the different bits of content helps users efficiently direct their attention. They know what to focus on and what to ignore, depending on what they're looking for.
-        .grid_6.prefix_1
+        .side-content
           %a.zoomable{:href => "_media/images/size/aikido-after-highlighted.png"}
             %img.grid_6{:alt => "", :src => "_media/images/size/aikido-after-highlighted.png"}
           %p.caption Click to view full-size
-        .grid_24.alpha.omega
-          %h2 3. Proximity
-        .grid_16
+
+        %h2 3. Proximity
+        .main-content
           %p Elements placed close to each other are seen as forming a group sharing a unifying concept. By grouping related content and visuals together you help the user quickly find the information he needs. To prevent confusion and frustration, group elements which are actually related. That sounds obvious, but it's easy to forget. Also, pay attention to spacing between elements - it's easy to space elements such that it's difficult to tell what's grouped with what.
-        .grid_24.alpha.omega
-          %h3 3.1. Grouping
-        .grid_16
+        %h3 3.1. Grouping
+        .main-content
           %p In the same way that grocery stores organize their goods by aisle so that you don't have to walk haphazardly through the store hoping that maybe, just maybe, you'll be able to find the double fudge brownie mix today, using proximity deliberately allows your users to efficiently zero in on the information he needs.
-        .grid_24.alpha.omega
-          %h3 3.2. Relatedness
-        .grid_16
+        %h3 3.2. Relatedness
+        .main-content
           %p It seems obvious that you would want to group things together which are actually related. Often, though people just don't do that. I don't think this idea needs much more explanation, so I'll just leave you with some examples of nonsensical grouping as a kind of cautionary tale. Bewaaaaaare!
-        .grid_24.alpha.omega
-          %h3 3.3. Ambiguity and How to Avoid It
-        .grid_16
+        %h3 3.3. Ambiguity and How to Avoid It
+        .main-content
           %p
             In the photos to the left, you have to actually read the captions in order to tell whether they apply to the photo above them or the one below.
             Now it’s much easier to tell which captions belong with which photos.
           %p You should leave much more whitespace between non-related elements than related elements in order to make the logical groupings visually clear.
-        .grid_24.alpha.omega
-          %h2 4. Alignment
-        .grid_16
+        %h2 4. Alignment
+        .main-content
           %p Alignment is crucial to giving your designs a clean appearance and to conveying organization. Slight misalignments are confusing and look messy. On the other hand, positioning an element so that it’s clearly out of alignment is an effective way of making it stand out.
-        .grid_24.alpha.omega
-          %h3 4.1. Organization
-        .grid_16
+        %h3 4.1. Organization
+        .main-content
           %p Elements sharing alignment are seen as related.
-        .grid_24.alpha.omega
-          %h3 4.2. Cleanliness
-        .grid_16
+        %h3 4.2. Cleanliness
+        .main-content
           %p Slight misalignments make for more work. Since they don't actually convey information, or rather, they convey misinformation, the result is an impression of messiness.
-        .grid_24.alpha.omega
-          %h3 4.3. Attention
-        .grid_16
+        %h3 4.3. Attention
+        .main-content
           %p You can make an element stand out by intentionally breaking alignment.
-        .grid_24.alpha.omega
-          %h2 5. Elimination
-        .grid_16
+        %h2 5. Elimination
+        .main-content
           %p Often, people add extra lines, boxes, bullets and other visual flotsam in order to convey information that's adequately conveyed with Size, Proximity and Alignment. Including this fluff makes your user’s brain work harder, as it has to figure out the significance of these elements.
-        .grid_24.alpha.omega
-          %h3 5.1. How to Identify Visual Hoo-Ha
-        .grid_16
+        %h3 5.1. How to Identify Visual Hoo-Ha
+        .main-content
           %p Does it say something already said?
-        .grid_24.alpha.omega
-          %h3 5.2. Learn to Embrace White Space
-        .grid_16
+        %h3 5.2. Learn to Embrace White Space
+        .main-content
           %p Visual design babies often put in this extra bollocks because they're uncomfortable with white space.
       / / #content
       #footer.container_16 &nbsp;
