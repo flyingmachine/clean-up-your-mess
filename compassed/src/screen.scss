@@ -1,0 +1,108 @@
+//** SCREEN STYLES **//
+
+// Imports --------------------------------------------------------------
+
+@import "defaults";
+
+/* Layout -------------------------------------------------------------- */
+
+@include susy;
+
+// change '.container' to match your HTML container element
+// or @extend it to apply multiple containers on your site.
+#page {
+  @include container;
+  @include show-grid("grid.png"); }
+
+// show-grid loads a 64+16x24 grid image by default
+// For other grid settings, run `compass grid-img 30+10x20`
+// Where 30 is the column width, 10 is the gutter width,
+// and 20 is the (optional) line-height.
+
+/* Styles -------------------------------------------------------------- */
+
+#header h1 { height: 100px; }
+#header h1 a { display: block; height: 100px; background: url(../images/logo_cleanupyourmess.png) no-repeat; text-indent: -8000px; }
+
+#footer .footer-top:after,
+#navigation:after,
+#header:after {
+  @include clearfix;
+}
+
+/*#content h2 { clear: both; height: 79px; margin: 0 0 08px 0; padding: 0 0 0 10px; background: url(../images/bg_h2.png) no-repeat 0 11px; font-size: 87px; overflow: hidden; }
+#content h2 span { display: block; margin: -40px 0 0 0; font-weight: normal; }
+.opera #content h2 span { margin: -29px 0 0 0; }*/
+#content h2.preface { clear: both; margin: 0 0 20px 0; padding: 0 0 0 10px; font-family: 'Quicksand'; font-size: 30px; background: url(../images/bg_h3.png) no-repeat 0 17px; }
+#content h2 {
+  clear:both;
+  @include adjust-font-size-to(30px);
+  @include sans-family;
+  background: url(../images/bg_h4.png) no-repeat 0 0; 
+}
+#content h3 {
+  clear:both;
+  @include adjust-font-size-to(21px);
+  @include sans-family;
+  background: url(../images/bg_h3.png) no-repeat 0 15px; 
+}
+
+#content .hr { display: block; clear: both; height: 49px; background: url(../images/bg_hr.png) no-repeat 0 14px; }
+#content img.right { float: right; }
+
+h2,h3,h4,h5 {font-style:normal;}
+
+/* 2.5 Sidebar
+-----------------------------------------------------------------------------------------------*/
+
+#sidebar {  }
+
+/* 2.6 Footer
+-----------------------------------------------------------------------------------------------*/
+
+#footer {  }
+
+/* 3. PAGES
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+/* 3.1 Home page
+-----------------------------------------------------------------------------------------------*/
+
+/* 3.2 Preface
+-----------------------------------------------------------------------------------------------*/
+#preface-content{padding:0 0 20px;}
+
+
+/* Stroop Effect */
+.red {color:red;}
+.green {color:green;}
+.blue {color:blue;}
+.orange {color:orange;}
+.yellow {color:#eee177;}
+.purple {color:purple;}
+
+img.topalign {
+  margin-top:6px;
+}
+
+/* List */
+#content ul, #content ol { line-height: 27px; padding: 0 0 27px 7px; }
+#content ol li {margin-left:24px;}
+
+/* FIXME */
+.examples {
+  background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
+  padding-bottom:17px;
+  margin-top:-5px;
+}
+
+.marginal {
+  font-size:12px;
+}
+
+.caption {
+  font-size:12px;
+  font-style:italic;
+  text-align:center;
+}
