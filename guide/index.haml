@@ -1,5 +1,5 @@
-- require "helper"
-- self.extend Helper
+- require "../helpers/haml_helper"
+- self.extend HamlHelper
 !!! Strict
 %html{:lang => "en", "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
   %head
@@ -27,7 +27,7 @@
               %p
                 %img.topalign{:alt => "", :src => "_media/images/preface/crybaby.jpg"}/
             .grid_16
-              %p If you're like most people, you feel like a baby when it comes to communicating visually. You sometimes have a vague sense of what you want, but can't articulate it or make it come about. All you can do is point and cry. This guide will help you will help you communicate with conscious skill. It will show you how to create designs that are easy to understand and attractive.
+              %p If you're like most people, you feel like a baby when it comes to communicating visually. You sometimes have a vague sense of what you want, but can't articulate it or make it come about. All you can do is point and cry. This guide will help you will help you communicate with conscious skill. It will show you how to create designs that are easy to understand and attractive.s
       
           .clearfix
             .grid_7
@@ -38,7 +38,6 @@
     
 
         %h2 1. What is Clean Design?
-    
         .main-content
           %p Have a look at the two flyers below. Which one is more appealing to you? Which one looks cleaner?
         
