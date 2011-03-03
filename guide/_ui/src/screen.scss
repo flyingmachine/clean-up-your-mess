@@ -36,7 +36,9 @@
   clear:both;
   @include adjust-font-size-to(30px);
   @include sans-family;
-  background: url(../images/bg_h3.png) no-repeat 0 17px; 
+  background: url(../images/bg_h3.png) no-repeat 0 29px; 
+  margin-bottom:0;
+  padding-top:0;
 }
 #content h2 {
   clear:both;
@@ -44,8 +46,9 @@
   padding-left: gutter();
   @include adjust-font-size-to(30px);
   @include sans-family;
-  background: url(../images/bg_h4.png) no-repeat 0 0;
-  @include trailer(1, 30px);
+  background: url(../images/bg_h4.png) no-repeat 0 -8px;
+  padding-top: $base-line-height;
+  margin-left:0;
 }
 #content h3 {
   clear:both;
@@ -54,6 +57,8 @@
   @include sans-family;
   background: url(../images/bg_h3.png) no-repeat 0 18px; 
   @include trailer(1, 21px);
+  margin-left:0;
+  padding-left: gutter();
 }
 
 #content .hr { display: block; clear: both; height: 49px; background: url(../images/bg_hr.png) no-repeat 0 14px; }
@@ -96,7 +101,19 @@ h2,h3,h4,h5 {font-style:normal;}
 
 /* 3.2 Preface
 -----------------------------------------------------------------------------------------------*/
-#preface-content{padding:0 0 20px;}
+.preface-row {
+  @include clearfix;
+  @include alpha;
+  @include omega;
+  
+  .preface-image {
+    @include columns(4);
+  }
+  .preface-text {
+    @include columns(8);
+    @include omega;
+  }
+}
 
 
 /* Stroop Effect */

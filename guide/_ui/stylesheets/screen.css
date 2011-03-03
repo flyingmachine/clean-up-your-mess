@@ -508,10 +508,12 @@ html > body {
   font-size: 1.667em;
   line-height: 1.8em;
   font-family: Quicksand, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: url(../images/bg_h3.png) no-repeat 0 17px;
+  background: url(../images/bg_h3.png) no-repeat 0 29px;
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
-/* line 41, ../src/screen.scss */
+/* line 43, ../src/screen.scss */
 #content h2 {
   clear: both;
   clear: both;
@@ -521,11 +523,12 @@ html > body {
   font-size: 1.667em;
   line-height: 1.8em;
   font-family: Quicksand, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: url(../images/bg_h4.png) no-repeat 0 0;
-  margin-bottom: 0.9em;
+  background: url(../images/bg_h4.png) no-repeat 0 -8px;
+  padding-top: 27px;
+  margin-left: 0;
 }
 
-/* line 50, ../src/screen.scss */
+/* line 53, ../src/screen.scss */
 #content h3 {
   clear: both;
   clear: both;
@@ -536,9 +539,11 @@ html > body {
   font-family: Quicksand, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: url(../images/bg_h3.png) no-repeat 0 18px;
   margin-bottom: 1.286em;
+  margin-left: 0;
+  padding-left: 1.639%;
 }
 
-/* line 59, ../src/screen.scss */
+/* line 64, ../src/screen.scss */
 #content .hr {
   display: block;
   clear: both;
@@ -546,17 +551,17 @@ html > body {
   background: url(../images/bg_hr.png) no-repeat 0 14px;
 }
 
-/* line 60, ../src/screen.scss */
+/* line 65, ../src/screen.scss */
 #content img.right {
   float: right;
 }
 
-/* line 62, ../src/screen.scss */
+/* line 67, ../src/screen.scss */
 h2, h3, h4, h5 {
   font-style: normal;
 }
 
-/* line 64, ../src/screen.scss */
+/* line 69, ../src/screen.scss */
 .main-content {
   display: inline;
   float: left;
@@ -565,7 +570,7 @@ h2, h3, h4, h5 {
   margin-left: 1.639%;
 }
 
-/* line 69, ../src/screen.scss */
+/* line 74, ../src/screen.scss */
 .side-content {
   display: inline;
   float: left;
@@ -578,7 +583,7 @@ h2, h3, h4, h5 {
   #margin-left: -16px;
 }
 
-/* line 75, ../src/screen.scss */
+/* line 80, ../src/screen.scss */
 .spread {
   clear: both;
   margin-right: 1.639%;
@@ -597,63 +602,87 @@ h2, h3, h4, h5 {
 -----------------------------------------------------------------------------------------------*/
 /* 3.2 Preface
 -----------------------------------------------------------------------------------------------*/
-/* line 99, ../src/screen.scss */
-#preface-content {
-  padding: 0 0 20px;
+/* line 104, ../src/screen.scss */
+.preface-row {
+  overflow: hidden;
+  *zoom: 1;
+  margin-left: 1.639%;
+  display: inline;
+  float: right;
+  margin-right: 1.639%;
+  #margin-left: -16px;
+}
+/* line 109, ../src/screen.scss */
+.preface-row .preface-image {
+  display: inline;
+  float: left;
+  width: 31.148%;
+  margin-right: 1.639%;
+}
+/* line 112, ../src/screen.scss */
+.preface-row .preface-text {
+  display: inline;
+  float: left;
+  width: 63.934%;
+  margin-right: 1.639%;
+  display: inline;
+  float: right;
+  margin-right: 1.639%;
+  #margin-left: -16px;
 }
 
 /* Stroop Effect */
-/* line 103, ../src/screen.scss */
+/* line 120, ../src/screen.scss */
 .red {
   color: red;
 }
 
-/* line 104, ../src/screen.scss */
+/* line 121, ../src/screen.scss */
 .green {
   color: green;
 }
 
-/* line 105, ../src/screen.scss */
+/* line 122, ../src/screen.scss */
 .blue {
   color: blue;
 }
 
-/* line 106, ../src/screen.scss */
+/* line 123, ../src/screen.scss */
 .orange {
   color: orange;
 }
 
-/* line 107, ../src/screen.scss */
+/* line 124, ../src/screen.scss */
 .yellow {
   color: #eee177;
 }
 
-/* line 108, ../src/screen.scss */
+/* line 125, ../src/screen.scss */
 .purple {
   color: purple;
 }
 
-/* line 110, ../src/screen.scss */
+/* line 127, ../src/screen.scss */
 img.topalign {
   margin-top: 6px;
 }
 
 /* List */
 /* FIXME */
-/* line 122, ../src/screen.scss */
+/* line 139, ../src/screen.scss */
 .examples {
   background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
   padding-bottom: 17px;
   margin-top: -5px;
 }
 
-/* line 128, ../src/screen.scss */
+/* line 145, ../src/screen.scss */
 .marginal {
   font-size: 0.667em;
   line-height: 2.25em;
 }
 
-/* line 132, ../src/screen.scss */
+/* line 149, ../src/screen.scss */
 .caption {
   font-size: 12px;
   font-style: italic;
