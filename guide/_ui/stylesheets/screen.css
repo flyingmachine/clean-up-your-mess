@@ -459,7 +459,7 @@ html > body {
   margin-right: auto;
   width: 976px;
   max-width: 100%;
-  background-image: url('/images/grid.png?1298850488');
+  background-image: url('/images/grid.png?1299129267');
   background-repeat: repeat;
   background-position: 16px 0;
 }
@@ -685,8 +685,4 @@ img.topalign {
 /* line 153, ../src/screen.scss */
 .flyers {
   margin-bottom: 1.5em;
-}
-/* line 155, ../src/screen.scss */
-.flyers img {
-  width: 469px;
 }
