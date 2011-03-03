@@ -21,16 +21,14 @@
 
 /* Styles -------------------------------------------------------------- */
 
-#header {@include full}
-#header h1 { height: 100px; }
-#header h1 a { display: block; height: 100px; background: url(../images/logo_cleanupyourmess.png) no-repeat; text-indent: -8000px; }
+#header h1 { height: 181px; }
+#header h1 a { display: block; height: 181px; background: url(../images/logo_cleanupyourmess.png) no-repeat; text-indent: -8000px; }
 
 #footer .footer-top:after,
 #navigation:after,
 #header:after {
   @include clearfix;
 }
-
 
 #content h2.preface {
   clear:both;
@@ -150,4 +148,11 @@ img.topalign {
   font-size:12px;
   font-style:italic;
   text-align:center;
+}
+
+.flyers {
+  @include trailer(1);
+  img {
+    width:469px;
+  }
 }

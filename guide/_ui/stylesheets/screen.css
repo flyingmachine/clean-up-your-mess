@@ -475,26 +475,19 @@ html > body {
 
 /* Styles -------------------------------------------------------------- */
 /* line 24, ../src/screen.scss */
-#header {
-  clear: both;
-  margin-right: 1.639%;
-  margin-left: 1.639%;
+#header h1 {
+  height: 181px;
 }
 
 /* line 25, ../src/screen.scss */
-#header h1 {
-  height: 100px;
-}
-
-/* line 26, ../src/screen.scss */
 #header h1 a {
   display: block;
-  height: 100px;
+  height: 181px;
   background: url(../images/logo_cleanupyourmess.png) no-repeat;
   text-indent: -8000px;
 }
 
-/* line 30, ../src/screen.scss */
+/* line 29, ../src/screen.scss */
 #footer .footer-top:after,
 #navigation:after,
 #header:after {
@@ -502,7 +495,7 @@ html > body {
   *zoom: 1;
 }
 
-/* line 35, ../src/screen.scss */
+/* line 33, ../src/screen.scss */
 #content h2.preface {
   clear: both;
   font-size: 1.667em;
@@ -513,7 +506,7 @@ html > body {
   padding-top: 0;
 }
 
-/* line 43, ../src/screen.scss */
+/* line 41, ../src/screen.scss */
 #content h2 {
   clear: both;
   clear: both;
@@ -528,7 +521,7 @@ html > body {
   margin-left: 0;
 }
 
-/* line 53, ../src/screen.scss */
+/* line 51, ../src/screen.scss */
 #content h3 {
   clear: both;
   clear: both;
@@ -543,7 +536,7 @@ html > body {
   padding-left: 1.639%;
 }
 
-/* line 64, ../src/screen.scss */
+/* line 62, ../src/screen.scss */
 #content .hr {
   display: block;
   clear: both;
@@ -551,17 +544,17 @@ html > body {
   background: url(../images/bg_hr.png) no-repeat 0 14px;
 }
 
-/* line 65, ../src/screen.scss */
+/* line 63, ../src/screen.scss */
 #content img.right {
   float: right;
 }
 
-/* line 67, ../src/screen.scss */
+/* line 65, ../src/screen.scss */
 h2, h3, h4, h5 {
   font-style: normal;
 }
 
-/* line 69, ../src/screen.scss */
+/* line 67, ../src/screen.scss */
 .main-content {
   display: inline;
   float: left;
@@ -570,7 +563,7 @@ h2, h3, h4, h5 {
   margin-left: 1.639%;
 }
 
-/* line 74, ../src/screen.scss */
+/* line 72, ../src/screen.scss */
 .side-content {
   display: inline;
   float: left;
@@ -583,7 +576,7 @@ h2, h3, h4, h5 {
   #margin-left: -16px;
 }
 
-/* line 80, ../src/screen.scss */
+/* line 78, ../src/screen.scss */
 .spread {
   clear: both;
   margin-right: 1.639%;
@@ -602,7 +595,7 @@ h2, h3, h4, h5 {
 -----------------------------------------------------------------------------------------------*/
 /* 3.2 Preface
 -----------------------------------------------------------------------------------------------*/
-/* line 104, ../src/screen.scss */
+/* line 102, ../src/screen.scss */
 .preface-row {
   overflow: hidden;
   *zoom: 1;
@@ -612,14 +605,14 @@ h2, h3, h4, h5 {
   margin-right: 1.639%;
   #margin-left: -16px;
 }
-/* line 109, ../src/screen.scss */
+/* line 107, ../src/screen.scss */
 .preface-row .preface-image {
   display: inline;
   float: left;
   width: 31.148%;
   margin-right: 1.639%;
 }
-/* line 112, ../src/screen.scss */
+/* line 110, ../src/screen.scss */
 .preface-row .preface-text {
   display: inline;
   float: left;
@@ -632,59 +625,68 @@ h2, h3, h4, h5 {
 }
 
 /* Stroop Effect */
-/* line 120, ../src/screen.scss */
+/* line 118, ../src/screen.scss */
 .red {
   color: red;
 }
 
-/* line 121, ../src/screen.scss */
+/* line 119, ../src/screen.scss */
 .green {
   color: green;
 }
 
-/* line 122, ../src/screen.scss */
+/* line 120, ../src/screen.scss */
 .blue {
   color: blue;
 }
 
-/* line 123, ../src/screen.scss */
+/* line 121, ../src/screen.scss */
 .orange {
   color: orange;
 }
 
-/* line 124, ../src/screen.scss */
+/* line 122, ../src/screen.scss */
 .yellow {
   color: #eee177;
 }
 
-/* line 125, ../src/screen.scss */
+/* line 123, ../src/screen.scss */
 .purple {
   color: purple;
 }
 
-/* line 127, ../src/screen.scss */
+/* line 125, ../src/screen.scss */
 img.topalign {
   margin-top: 6px;
 }
 
 /* List */
 /* FIXME */
-/* line 139, ../src/screen.scss */
+/* line 137, ../src/screen.scss */
 .examples {
   background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
   padding-bottom: 17px;
   margin-top: -5px;
 }
 
-/* line 145, ../src/screen.scss */
+/* line 143, ../src/screen.scss */
 .marginal {
   font-size: 0.667em;
   line-height: 2.25em;
 }
 
-/* line 149, ../src/screen.scss */
+/* line 147, ../src/screen.scss */
 .caption {
   font-size: 12px;
   font-style: italic;
   text-align: center;
+}
+
+/* line 153, ../src/screen.scss */
+.flyers {
+  margin-bottom: 1.5em;
+}
+/* line 155, ../src/screen.scss */
+.flyers img {
+  width: 469px;
 }
