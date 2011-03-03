@@ -14,8 +14,6 @@ $(document).ready(function() {
 		this.target = "_blank";
 	});
 
-	Cufon.replace('h2 span', { textShadow: '2px 1px #aaaaaa' });
-
 	if( $.browser.opera ){
 
 		$('html').addClass('opera');
