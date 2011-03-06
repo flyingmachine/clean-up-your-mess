@@ -133,7 +133,6 @@ img.topalign {
   }
 }
 
-/* FIXME */
 .examples {
   background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
   padding-bottom:17px;
@@ -151,5 +150,10 @@ img.topalign {
 }
 
 .flyers {
+  @include trailer(1);
+}
+
+.kittens {
+  @include full();
   @include trailer(1);
 }

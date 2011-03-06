@@ -459,7 +459,7 @@ html > body {
   margin-right: auto;
   width: 976px;
   max-width: 100%;
-  background-image: url('/images/grid.png?1299129267');
+  background-image: url('/images/grid.png?1299212175');
   background-repeat: repeat;
   background-position: 16px 0;
 }
@@ -661,28 +661,35 @@ img.topalign {
 }
 
 /* List */
-/* FIXME */
-/* line 137, ../src/screen.scss */
+/* line 136, ../src/screen.scss */
 .examples {
   background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
   padding-bottom: 17px;
   margin-top: -5px;
 }
 
-/* line 143, ../src/screen.scss */
+/* line 142, ../src/screen.scss */
 .marginal {
   font-size: 0.667em;
   line-height: 2.25em;
 }
 
-/* line 147, ../src/screen.scss */
+/* line 146, ../src/screen.scss */
 .caption {
   font-size: 12px;
   font-style: italic;
   text-align: center;
 }
 
-/* line 153, ../src/screen.scss */
+/* line 152, ../src/screen.scss */
 .flyers {
+  margin-bottom: 1.5em;
+}
+
+/* line 156, ../src/screen.scss */
+.kittens {
+  clear: both;
+  margin-right: 1.639%;
+  margin-left: 1.639%;
   margin-bottom: 1.5em;
 }

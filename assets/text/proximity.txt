@@ -1,0 +1,37 @@
+Elements placed close to each other are seen as forming a group sharing a unifying concept. By grouping related content and visuals together you help the user quickly find the information he needs. To prevent confusion and frustration, group elements which are actually related. That sounds obvious, but it's easy to forget. Also, pay attention to spacing between elements - it's easy to space elements such that it's difficult to tell what's grouped with what.
+
+Grouping
+
+In the same way that grocery stores organize their goods by aisle so that you don't have to walk haphazardly through the store hoping that maybe, just maybe, you'll be able to find the double fudge brownie mix today, using proximity deliberately allows your users to efficiently zero in on the information he needs.
+
+Relatedness
+
+It seems obvious that you would want to group things together which are actually related. Often, though people just don't do that. I don't think this idea needs much more explanation, so I'll just leave you with some examples of nonsensical grouping as a kind of cautionary tale. Bewaaaaaare!
+
+Ambiguity and How to Avoid It
+
+In the photos to the left, you have to actually read the captions in order to tell whether they apply to the photo above them or the one below.
+Now it’s much easier to tell which captions belong with which photos.
+
+You should leave much more whitespace between non-related elements than related elements in order to make the logical groupings visually clear.
+
+-------
+Have a look at the kittens below. 
+
+(show kittens)
+
+When you looked at the group on the right, did you immediately recognize that there are two groups of kittens? How about the group on the left - are the kittens grouped?
+
+When we see kittens (or any other visual elements) placed closely to each other our brains immediately assume that they form a group sharing a unifying concept. By grouping related content and visuals together you help the user quickly find the information he needs. To prevent confusion and frustration, group elements which are actually related. That sounds obvious, but it's easy to forget. Also, pay attention to spacing between elements - it's easy to space elements such that it's difficult to tell what's grouped with what.
+
+-------
+
+Which collection looks more organized?
+
+Elements placed close to each other are seen as forming a group sharing a unifying concept.
+
+Immediacy of seeing groups.
+
+They're seen this way even if they don't share a unifying concept.
+
+The takeaway is that you should group related elements together. You can see this clearly in the example below.
