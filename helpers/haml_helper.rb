@@ -3,4 +3,16 @@ module HamlHelper
     path = path.to_s + ".haml"
     Haml::Engine.new(File.read(path)).render
   end
+  
+  def sec(text)
+    @current_section ||= 0
+    @current_section += 1
+    @current_subsection = 0
+    "<h2>#{@current_section}. #{text}</h2>"
+  end
+  
+  def subsec(text)
+    @current_subsection += 1
+    "<h3>#{@current_section}.#{@current_subsection}. #{text}</h3>"
+  end
 end

@@ -55,3 +55,8 @@ Making these roles visually obvious helps your users find the info they need. We
 Using size to clearly distinguish the roles of the different bits of content helps users efficiently direct their attention. They know what to focus on and what to ignore, depending on what they're looking for.
 
 Headers are like the signs at the ends of aisles in grocery stores - they let you know whether you want to go down that way. Details are like the delicious box of cake mix.
+
+---------------
+Example of not using size
+
+Not using size makes it look bland
