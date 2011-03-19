@@ -15,4 +15,11 @@ module HamlHelper
     @current_subsection += 1
     "<h3>#{@current_section}.#{@current_subsection}. #{text}</h3>"
   end
+  
+  def zoomable(image)
+    "<div class='side-content'>
+      <a href='#{image}' class='zoomable'><img src='#{image}' /></a>
+      <p class='caption'> Click to view full-size</p>
+    </div>"
+  end
 end
