@@ -699,17 +699,16 @@ img.topalign {
   clear: both;
   margin-right: 1.639%;
   margin-left: 1.639%;
-  margin-bottom: 1.5em;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 166, ../src/screen.scss */
-.acatemy img {
+/* line 165, ../src/screen.scss */
+.acatemy .ad {
   margin-right: 16px;
   /* not sure why we can't do 16 */
   float: left;
 }
-/* line 171, ../src/screen.scss */
-.acatemy img:last-child {
+/* line 170, ../src/screen.scss */
+.acatemy .ad:last-child {
   margin-right: 0;
 }

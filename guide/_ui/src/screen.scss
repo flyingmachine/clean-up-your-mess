@@ -160,15 +160,14 @@ img.topalign {
 
 .acatemy {
   @include full();
-  @include trailer(1);
   @include clearfix;
   
-  img {
+  .ad {
     margin-right:16px; /* not sure why we can't do 16 */
     float:left;
   }
   
-  img:last-child {
+  .ad:last-child {
     margin-right:0;
   }
 }
