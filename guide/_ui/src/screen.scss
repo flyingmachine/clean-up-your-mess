@@ -157,3 +157,18 @@ img.topalign {
   @include full();
   @include trailer(1);
 }
+
+.acatemy {
+  @include full();
+  @include trailer(1);
+  @include clearfix;
+  
+  img {
+    margin-right:16px; /* not sure why we can't do 16 */
+    float:left;
+  }
+  
+  img:last-child {
+    margin-right:0;
+  }
+}

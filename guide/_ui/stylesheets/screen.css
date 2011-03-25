@@ -459,7 +459,7 @@ html > body {
   margin-right: auto;
   width: 976px;
   max-width: 100%;
-  background-image: url('/images/grid.png?1299167743');
+  background-image: url('/images/grid.png?1299212175');
   background-repeat: repeat;
   background-position: 16px 0;
 }
@@ -692,4 +692,24 @@ img.topalign {
   margin-right: 1.639%;
   margin-left: 1.639%;
   margin-bottom: 1.5em;
+}
+
+/* line 161, ../src/screen.scss */
+.acatemy {
+  clear: both;
+  margin-right: 1.639%;
+  margin-left: 1.639%;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 166, ../src/screen.scss */
+.acatemy img {
+  margin-right: 16px;
+  /* not sure why we can't do 16 */
+  float: left;
+}
+/* line 171, ../src/screen.scss */
+.acatemy img:last-child {
+  margin-right: 0;
 }
