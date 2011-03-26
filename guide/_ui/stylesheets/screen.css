@@ -474,6 +474,11 @@ html > body {
 }
 
 /* Styles -------------------------------------------------------------- */
+/* line 23, ../src/screen.scss */
+a {
+  text-decoration: none;
+}
+
 /* line 24, ../src/screen.scss */
 #header h1 {
   height: 181px;
