@@ -171,3 +171,19 @@ img.topalign {
     margin-right:0;
   }
 }
+
+.books {
+  @include full();
+  @include trailer(1);
+  @include clearfix;
+  
+  .book {
+    @include clearfix;
+    @include columns(3);
+    
+    iframe {
+      float:left;
+      border-left:1px solid #ccc;
+    }
+  }
+}

@@ -22,4 +22,8 @@ module HamlHelper
       <p class='caption'> Click to view full-size</p>
     </div>"
   end
+  
+  def amazon_link(text, asin)
+    "<a href='http://www.amazon.com/exec/obidos/ASIN/#{asin}/aflyingmachin-20/ref=nosim/' title='#{text}'>#{text}</a>"
+  end
 end

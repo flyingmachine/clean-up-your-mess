@@ -717,3 +717,27 @@ img.topalign {
 .acatemy .ad:last-child {
   margin-right: 0;
 }
+
+/* line 175, ../src/screen.scss */
+.books {
+  clear: both;
+  margin-right: 1.639%;
+  margin-left: 1.639%;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 180, ../src/screen.scss */
+.books .book {
+  overflow: hidden;
+  *zoom: 1;
+  display: inline;
+  float: left;
+  width: 22.951%;
+  margin-right: 1.639%;
+}
+/* line 184, ../src/screen.scss */
+.books .book iframe {
+  float: left;
+  border-left: 1px solid #ccc;
+}
