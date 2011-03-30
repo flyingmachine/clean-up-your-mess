@@ -23,7 +23,12 @@ module HamlHelper
     </div>"
   end
   
-  def amazon_link(text, asin)
-    "<a href='http://www.amazon.com/exec/obidos/ASIN/#{asin}/aflyingmachin-20/ref=nosim/' title='#{text}'>#{text}</a>"
+  def amazon_link(text, asin, title = nil)
+    title = text unless title
+    "<a href='http://www.amazon.com/exec/obidos/ASIN/#{asin}/aflyingmachin-20/ref=nosim/' title='#{title}'>#{text}</a>"
+  end
+  
+  def amazon_image(text, asin, image_name)
+    amazon_link("<img src='_media/images/amazon/#{image_name}' alt='#{text}' />", asin, text)
   end
 end

@@ -177,13 +177,26 @@ img.topalign {
   @include trailer(1);
   @include clearfix;
   
+  dd {
+    padding-left:0;
+  }
+  
   .book {
     @include clearfix;
-    @include columns(3);
+    @include columns(8, 12);
+    margin-left:0;
     
-    iframe {
+    img {
       float:left;
-      border-left:1px solid #ccc;
+      margin-right:$gutter-width;
+    }
+    
+    dd {
+      @include prefix(2, 8);
+    }
+    
+    .author {
+      @include adjust-font-size-to(13px);
     }
   }
 }

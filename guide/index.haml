@@ -195,10 +195,17 @@
         .main-content
           %p  Another great way to learn more is to read design books. As you learn more design concepts, you'll be able to notice them in other designs and apply them in your own. Fun!
           %p Below is a list of books I've read myself which I consider useful for beginners. If you click the links I provide and buy stuff, then Amazon gives me some money. Hooray!
-        .books
-          .book
-            /  Universal Principles of Design
-            test
+        %dl.books
+          %dd
+            %dl.book
+              %dt
+                = amazon_image "Universal Principles of Design", 1592535879, "universal-principles-of-design.jpg"
+                = amazon_link "Universal Principles of Design", 1592535879
+              %dd.author
+                by William Lidwell, Kritina Holden, and Jill Butler
+              %dd.description
+                %p One of the biggest challenges in learning a new discipline is learning the vocabulary. This book gives you the names for 125 design concepts, with great textual descriptions of the concept and plenty of illustrations. Coverage is succinct and engaging at the same time.
+                %p The best thing about this book is that it lends itself to random reading. Pop it open to any page and you'll learn something new.
         
         = sec "Closing Thoughts"
         .main-content
@@ -213,7 +220,8 @@
             %li Lea Downing
             %li Su Jones
             %li Chris Laws
-            %li Nadir
+            %li Nadir Al-Hussein
+            %li Zed Shaw
       #footer.container_16 &nbsp;
       / / footer
     :javascript
