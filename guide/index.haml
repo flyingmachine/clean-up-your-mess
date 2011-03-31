@@ -99,6 +99,9 @@
         = subsec "The Most Important Thing to Remember"
         .main-content
           %p The basic cause of messy design is slight, unintentional differences among elements. This causes your brain's visual processing to falter. First, your brain has to determine if there actually is a visual difference. Then, it has to determine the significance of that difference. Because the small discrepancies don't actually signify thing, you end up wasting your audience's brainpower. Strive for a consistent visual style where elements which are logically similar look similar to each other and look unambiguously different otherwise.
+          %p You can see this in the image at the right. In each set, a block dot differs in size and a green dot differs in color (well it's no longer green in the bottom set, but you get the picture). By using clear, intentional contrast, it's easier to distinguish the different kinds of elements in your design. That makes it easier to find information. And that's what makes clean design.
+        .side-content
+          %img{:src => "_media/images/contrast-circles.png"}
         = sec "Size"
         .main-content
           %p
@@ -120,7 +123,18 @@
           %p Why is it important to make these roles (in this case, header and detail) obvious? Making these roles visually distinct helps people find the info they need. We rely on headers to help us get an idea of what the document's about. We also use them to narrow in on the details we're most interested in. At the same time, we know to pay less attention to headers when we're going through detail text. 
           %p Using size to clearly distinguish the roles of the different bits of content helps people efficiently direct their attention. They know what to focus on and what to ignore, depending on what they're looking for.
           %p You can see the same idea at work at a supermarket. The aisle signs act as headers &mdash; they're short, readily noticeable, and they're meant to help you find the brownie mix that you're for some reason craving at 2:00 am.
-          
+        = subsec "Summary"
+        .main-content
+          %ul
+            %li
+              %strong Identify the roles of your visual elements.
+              What purposes do the different bits of text serve? What questions do they help answer? Headers answer questions like "what is this about?" and "where is the contact info?"
+            %li
+              %strong Size elements consistently.
+              Headers should look like other headers. Detail text should look like other detail text. Small variations in size are confusing, because the brain has to figure out if the differences are meaningful.
+            %li
+              %strong Provide strong contrast between elements with different roles.
+              This helps people easily identify the different kinds of content in your design.
         = sec "Proximity"
         .main-content
           %p Have a look at the kittens below:
@@ -195,17 +209,38 @@
         .main-content
           %p  Another great way to learn more is to read design books. As you learn more design concepts, you'll be able to notice them in other designs and apply them in your own. Fun!
           %p Below is a list of books I've read myself which I consider useful for beginners. If you click the links I provide and buy stuff, then Amazon gives me some money. Hooray!
-        %dl.books
-          %dd
-            %dl.book
-              %dt
-                = amazon_image "Universal Principles of Design", 1592535879, "universal-principles-of-design.jpg"
-                = amazon_link "Universal Principles of Design", 1592535879
-              %dd.author
-                by William Lidwell, Kritina Holden, and Jill Butler
-              %dd.description
-                %p One of the biggest challenges in learning a new discipline is learning the vocabulary. This book gives you the names for 125 design concepts, with great textual descriptions of the concept and plenty of illustrations. Coverage is succinct and engaging at the same time.
-                %p The best thing about this book is that it lends itself to random reading. Pop it open to any page and you'll learn something new.
+          %dl.books
+            %dd
+              %dl.book
+                %dt
+                  = amazon_image "Universal Principles of Design", 1592535879, "universal-principles-of-design.jpg"
+                  = amazon_link "Universal Principles of Design", 1592535879
+                %dd.author
+                  by William Lidwell, Kritina Holden, and Jill Butler
+                %dd.description
+                  %p One of the biggest challenges in learning a new discipline is learning the vocabulary. This book gives you the names for 125 design concepts, with great textual descriptions of the concept and plenty of illustrations. Coverage is succinct and engaging at the same time.
+                  %p The best thing about this book is that it lends itself to random reading. Pop it open to any page and you'll learn something new.
+                  %p= amazon_link "Buy on Amazon", 1592535879
+              %dl.book
+                %dt
+                  = amazon_image "The Non-Designers Design Book", 0321534042, "non-designers-design-book.jpg"
+                  = amazon_link "The Non-Designers Design Book", 0321534042
+                %dd.author
+                  by Robin Williams
+                %dd.description
+                  %p This was the first design book I read. It opened my eyes to the world of design, for which I'm very grateful. Robin covers some of the same material as I cover here, but in a different way.
+                  %p The book also covers typography, and I still think it's the best beginner's guide out there. Worth it for that alone. You can probably find an older edition for a couple bucks.
+                  %p= amazon_link "Buy on Amazon", 0321534042
+              %dl.book
+                %dt
+                  = amazon_image "Don't Make Me Think", "0321344758", "dont-make-me-think.jpg"
+                  = amazon_link "Don't Make Me Think", "0321344758"
+                %dd.author
+                  by Steve Krug
+                %dd.description
+                  %p This is a quick and readable book web usability. It really made me understand that design isn't about me trying to show off my creative ability; it's about meeting the needs of your users.
+                  %p It's a must-have for web developers, but I think almost everyone else would find it interesting too.
+                  %p= amazon_link "Buy on Amazon", "0321344758"
         
         = sec "Closing Thoughts"
         .main-content

@@ -173,17 +173,19 @@ img.topalign {
 }
 
 .books {
-  @include full();
-  @include trailer(1);
   @include clearfix;
+  margin-left:0;
   
   dd {
     padding-left:0;
   }
   
+  dt {
+    margin-top:0;
+  }
+  
   .book {
     @include clearfix;
-    @include columns(8, 12);
     margin-left:0;
     
     img {
