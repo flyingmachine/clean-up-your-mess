@@ -21,7 +21,9 @@
 
 /* Styles -------------------------------------------------------------- */
 a {text-decoration:none;}
-#header h1 { height: 181px; }
+#header h1 { 
+  height: 181px;
+}
 #header h1 a { display: block; height: 181px; background: url(../images/logo_cleanupyourmess.png) no-repeat; text-indent: -8000px; }
 
 #footer .footer-top:after,
@@ -29,7 +31,6 @@ a {text-decoration:none;}
 #header:after {
   @include clearfix;
 }
-
 #content h2.preface {
   clear:both;
   @include adjust-font-size-to(30px);
@@ -88,7 +89,11 @@ h2,h3,h4,h5 {font-style:normal;}
 /* 2.6 Footer
 -----------------------------------------------------------------------------------------------*/
 
-#footer {  }
+#footer { 
+  @include full;
+  padding-top:$base-line-height - 2px;
+  border-top:2px solid black;
+}
 
 /* 3. PAGES
 -----------------------------------------------------------------------------------------------
