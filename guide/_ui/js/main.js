@@ -91,7 +91,12 @@ $(document).ready(function() {
   })
 });
 
-
-$(function(){
-  $(window).sausage()
-})
+$(window)
+    .sausage({
+        content: function (i, $page) {
+            return '<span class="sausage-span">'
+                + $page.find('.anchor').first().text()
+                + '</span>';
+        }
+    })
+    ;
