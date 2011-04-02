@@ -91,3 +91,7 @@ $(document).ready(function() {
   })
 });
 
+
+$(function(){
+  $(window).sausage()
+})

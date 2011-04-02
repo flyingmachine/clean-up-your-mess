@@ -725,30 +725,39 @@ img.topalign {
   margin-left: 0;
 }
 /* line 179, ../src/screen.scss */
+.books dl {
+  margin-bottom: 0;
+}
+/* line 183, ../src/screen.scss */
 .books dd {
   padding-left: 0;
 }
-/* line 183, ../src/screen.scss */
+/* line 187, ../src/screen.scss */
 .books dt {
   margin-top: 0;
 }
-/* line 187, ../src/screen.scss */
+/* line 191, ../src/screen.scss */
 .books .book {
   overflow: hidden;
   *zoom: 1;
   margin-left: 0;
 }
-/* line 191, ../src/screen.scss */
+/* line 195, ../src/screen.scss */
 .books .book img {
   float: left;
   margin-right: 16px;
 }
-/* line 196, ../src/screen.scss */
+/* line 200, ../src/screen.scss */
 .books .book dd {
   padding-left: 25.641%;
 }
-/* line 200, ../src/screen.scss */
+/* line 204, ../src/screen.scss */
 .books .book .author {
   font-size: 0.722em;
   line-height: 2.077em;
+}
+
+/* line 211, ../src/screen.scss */
+#toc ol {
+  margin-bottom: 0;
 }

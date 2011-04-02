@@ -176,6 +176,10 @@ img.topalign {
   @include clearfix;
   margin-left:0;
   
+  dl {
+    margin-bottom:0;
+  }
+  
   dd {
     padding-left:0;
   }
@@ -200,5 +204,11 @@ img.topalign {
     .author {
       @include adjust-font-size-to(13px);
     }
+  }
+}
+
+#toc {
+  ol {
+    margin-bottom:0;
   }
 }
