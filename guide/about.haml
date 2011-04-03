@@ -1,0 +1,43 @@
+- require "../helpers/haml_helper"
+- self.extend HamlHelper
+!!! Strict
+%html{:lang => "en", "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %title Clean Up Your Mess - A Guide to Visual Design for Everybody: Discussion
+    %link{:href => "_ui/stylesheets/screen.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
+    
+  %body.home
+    #page
+      #nav
+        %ul
+          %li
+            %a.toc{:href => "index.html"} Guide
+          %li
+            %a.discussion{:href => "discussion.html"} Discussion
+          %li
+            %a.about{:href => "about.html"} About
+      #header
+        %h1.cleanupyourmess
+          %a{:href => "#", :rel => "home", :title => "Go to homepage"}
+            %span.text Clean Up Your Mess
+      #content
+        %h2.preface About
+        .main-content
+          %p This site was created by Daniel Higginbotham. Daniel practices aikido and has cats.
+      #footer
+        .main-content
+          %p This site is Copyright &copy; 2011 by Daniel Higginbotham.
+          <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.visualmess.com&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:42px;" allowTransparency="true"></iframe>
+        
+      / / footer
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22306787-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
