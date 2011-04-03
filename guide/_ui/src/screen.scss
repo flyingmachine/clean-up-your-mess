@@ -120,7 +120,7 @@ h2,h3,h4,h5 {font-style:normal;}
 -----------------------------------------------------------------------------------------------*/
 
 #footer { 
-  @include full;
+  @include full(12);
   padding-top:$base-line-height - 2px;
   border-top:2px solid black;
 }

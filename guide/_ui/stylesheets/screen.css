@@ -629,8 +629,6 @@ h2, h3, h4, h5 {
 /* line 122, ../src/screen.scss */
 #footer {
   clear: both;
-  margin-right: 1.639%;
-  margin-left: 1.639%;
   padding-top: 25px;
   border-top: 2px solid black;
 }
