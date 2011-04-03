@@ -16,27 +16,15 @@
     
   %body.home
     #page
-      #header
-        %h1.cleanupyourmess
-          %a{:href => "#", :rel => "home", :title => "Go to homepage"}
-            %span.text Clean Up Your Mess
-      #content
-        %h2.preface Preface
-        #preface-content.alpha.omega
-          .preface-row
-            .preface-image 
-              %img.topalign{:alt => "", :src => "_media/images/preface/crybaby.jpg"}/
-            .preface-text
-              %p If you're like most people, you feel like a baby when it comes to visual design. You sometimes have a vague sense of what you want, but can't articulate it or make it come about. All you can do is point and cry. This guide will help you communicate with conscious skill. It will show you how to create designs that are easy to understand and attractive.
-      
-          .preface-row
-            .preface-image
-              %img.topalign{:alt => "", :src => "_media/images/preface/bird-of-paradise.jpg"}/
-            .preface-text
-              %p Beyond giving you practical tools, I hope this guide inspires you. One of my favorite quotes is, "I open my eyes and I see paradise." What a great gift vision is! What an incredible way to connect to the world around us and to each other. My hope is that this guide will allow you to communicate with more creativity and more control &ndash; and that you'll want to learn more.
-    
-        %h2.preface Table of Contents
-        .main-content
+      #nav
+        %ul
+          %li
+            %a.toc{:href => "#table-of-contents"}Table of  Contents
+          %li
+            %a.discussion{:href => "discussion.html"} Discussion
+          %li
+            %a.about{:href => "about.html"} About
+        #table-of-contents
           %ol#toc
             %li 
               <a href='#sec1'>What is Clean Design?</a>
@@ -70,7 +58,27 @@
                 %li <a href='#sec6.1'>Observing and Doing</a>
                 %li <a href='#sec6.2'>Further Reading</a>
             %li <a href='#sec7'>Closing Thoughts</a>
-            %li <a href='#sec8'>Thank Yous</a>    
+            %li <a href='#sec8'>Thank Yous</a>
+
+      #header
+        %h1.cleanupyourmess
+          %a{:href => "#", :rel => "home", :title => "Go to homepage"}
+            %span.text Clean Up Your Mess
+      #content
+        %h2.preface Preface
+        #preface-content.alpha.omega
+          .preface-row
+            .preface-image 
+              %img.topalign{:alt => "", :src => "_media/images/preface/crybaby.jpg"}/
+            .preface-text
+              %p If you're like most people, you feel like a baby when it comes to visual design. You sometimes have a vague sense of what you want, but can't articulate it or make it come about. All you can do is point and cry. This guide will help you communicate with conscious skill. It will show you how to create designs that are easy to understand and attractive.
+      
+          .preface-row
+            .preface-image
+              %img.topalign{:alt => "", :src => "_media/images/preface/bird-of-paradise.jpg"}/
+            .preface-text
+              %p Beyond giving you practical tools, I hope this guide inspires you. One of my favorite quotes is, "I open my eyes and I see paradise." What a great gift vision is! What an incredible way to connect to the world around us and to each other. My hope is that this guide will allow you to communicate with more creativity and more control &ndash; and that you'll want to learn more.
+     
         = sec "What is Clean Design?"
         .main-content
           %p Have a look at the two flyers below. Which one is more appealing to you? Which one looks cleaner?
@@ -322,7 +330,7 @@
         .main-content
           %p This site is Copyright &copy; 2011 by Daniel Higginbotham.
           <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.visualmess.com&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:42px;" allowTransparency="true"></iframe>
-        
+          
       / / footer
     :javascript
       var _gaq = _gaq || [];

@@ -479,12 +479,45 @@ a {
   text-decoration: none;
 }
 
-/* line 24, ../src/screen.scss */
+/* line 25, ../src/screen.scss */
+#nav {
+  clear: both;
+  margin-right: 1.639%;
+  margin-left: 1.639%;
+}
+/* line 28, ../src/screen.scss */
+#nav ul {
+  list-style: none;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0;
+  padding: 0 0 25px;
+}
+/* line 34, ../src/screen.scss */
+#nav ul li {
+  float: left;
+  margin: 0;
+}
+/* line 38, ../src/screen.scss */
+#nav ul li a {
+  display: block;
+  padding: 0 5px;
+  color: black;
+  background: #fff0f0;
+  border-bottom: 2px solid white;
+  margin-right: 5px;
+}
+/* line 46, ../src/screen.scss */
+#nav ul li a:hover {
+  border-bottom: 2px solid black;
+}
+
+/* line 54, ../src/screen.scss */
 #header h1 {
   height: 181px;
 }
 
-/* line 27, ../src/screen.scss */
+/* line 57, ../src/screen.scss */
 #header h1 a {
   display: block;
   height: 181px;
@@ -492,7 +525,7 @@ a {
   text-indent: -8000px;
 }
 
-/* line 31, ../src/screen.scss */
+/* line 61, ../src/screen.scss */
 #footer .footer-top:after,
 #navigation:after,
 #header:after {
@@ -500,7 +533,7 @@ a {
   *zoom: 1;
 }
 
-/* line 34, ../src/screen.scss */
+/* line 64, ../src/screen.scss */
 #content h2.preface {
   clear: both;
   font-size: 1.667em;
@@ -511,7 +544,7 @@ a {
   padding-top: 0;
 }
 
-/* line 42, ../src/screen.scss */
+/* line 72, ../src/screen.scss */
 #content h2 {
   clear: both;
   clear: both;
@@ -526,7 +559,7 @@ a {
   margin-left: 0;
 }
 
-/* line 52, ../src/screen.scss */
+/* line 82, ../src/screen.scss */
 #content h3 {
   clear: both;
   clear: both;
@@ -541,7 +574,7 @@ a {
   padding-left: 1.639%;
 }
 
-/* line 63, ../src/screen.scss */
+/* line 93, ../src/screen.scss */
 #content .hr {
   display: block;
   clear: both;
@@ -549,17 +582,17 @@ a {
   background: url(../images/bg_hr.png) no-repeat 0 14px;
 }
 
-/* line 64, ../src/screen.scss */
+/* line 94, ../src/screen.scss */
 #content img.right {
   float: right;
 }
 
-/* line 66, ../src/screen.scss */
+/* line 96, ../src/screen.scss */
 h2, h3, h4, h5 {
   font-style: normal;
 }
 
-/* line 68, ../src/screen.scss */
+/* line 98, ../src/screen.scss */
 .main-content {
   display: inline;
   float: left;
@@ -568,7 +601,7 @@ h2, h3, h4, h5 {
   margin-left: 1.639%;
 }
 
-/* line 73, ../src/screen.scss */
+/* line 103, ../src/screen.scss */
 .side-content {
   display: inline;
   float: left;
@@ -581,7 +614,7 @@ h2, h3, h4, h5 {
   #margin-left: -16px;
 }
 
-/* line 79, ../src/screen.scss */
+/* line 109, ../src/screen.scss */
 .spread {
   clear: both;
   margin-right: 1.639%;
@@ -593,7 +626,7 @@ h2, h3, h4, h5 {
 -----------------------------------------------------------------------------------------------*/
 /* 2.6 Footer
 -----------------------------------------------------------------------------------------------*/
-/* line 92, ../src/screen.scss */
+/* line 122, ../src/screen.scss */
 #footer {
   clear: both;
   margin-right: 1.639%;
@@ -609,7 +642,7 @@ h2, h3, h4, h5 {
 -----------------------------------------------------------------------------------------------*/
 /* 3.2 Preface
 -----------------------------------------------------------------------------------------------*/
-/* line 107, ../src/screen.scss */
+/* line 137, ../src/screen.scss */
 .preface-row {
   overflow: hidden;
   *zoom: 1;
@@ -619,14 +652,14 @@ h2, h3, h4, h5 {
   margin-right: 1.639%;
   #margin-left: -16px;
 }
-/* line 112, ../src/screen.scss */
+/* line 142, ../src/screen.scss */
 .preface-row .preface-image {
   display: inline;
   float: left;
   width: 31.148%;
   margin-right: 1.639%;
 }
-/* line 115, ../src/screen.scss */
+/* line 145, ../src/screen.scss */
 .preface-row .preface-text {
   display: inline;
   float: left;
@@ -639,68 +672,68 @@ h2, h3, h4, h5 {
 }
 
 /* Stroop Effect */
-/* line 123, ../src/screen.scss */
+/* line 153, ../src/screen.scss */
 .red {
   color: red;
 }
 
-/* line 124, ../src/screen.scss */
+/* line 154, ../src/screen.scss */
 .green {
   color: green;
 }
 
-/* line 125, ../src/screen.scss */
+/* line 155, ../src/screen.scss */
 .blue {
   color: blue;
 }
 
-/* line 126, ../src/screen.scss */
+/* line 156, ../src/screen.scss */
 .orange {
   color: orange;
 }
 
-/* line 127, ../src/screen.scss */
+/* line 157, ../src/screen.scss */
 .yellow {
   color: #eee177;
 }
 
-/* line 128, ../src/screen.scss */
+/* line 158, ../src/screen.scss */
 .purple {
   color: purple;
 }
 
-/* line 130, ../src/screen.scss */
+/* line 160, ../src/screen.scss */
 img.topalign {
   margin-top: 6px;
 }
 
 /* List */
-/* line 141, ../src/screen.scss */
+/* line 171, ../src/screen.scss */
 .examples {
   background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
   padding-bottom: 17px;
   margin-top: -5px;
 }
 
-/* line 147, ../src/screen.scss */
+/* line 177, ../src/screen.scss */
 .marginal {
   font-size: 0.667em;
   line-height: 2.25em;
 }
 
-/* line 151, ../src/screen.scss */
+/* line 181, ../src/screen.scss */
 .caption {
   font-size: 12px;
   font-style: italic;
   text-align: center;
 }
 
-/* line 157, ../src/screen.scss */
+/* line 187, ../src/screen.scss */
 .flyers {
   margin-bottom: 1.5em;
 }
 
-/* line 161, ../src/screen.scss */
+/* line 191, ../src/screen.scss */
 .kittens {
   clear: both;
   margin-right: 1.639%;
@@ -708,7 +741,7 @@ img.topalign {
   margin-bottom: 1.5em;
 }
 
-/* line 166, ../src/screen.scss */
+/* line 196, ../src/screen.scss */
 .acatemy {
   clear: both;
   margin-right: 1.639%;
@@ -716,57 +749,67 @@ img.topalign {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 170, ../src/screen.scss */
+/* line 200, ../src/screen.scss */
 .acatemy .ad {
   margin-right: 16px;
   /* not sure why we can't do 16 */
   float: left;
 }
-/* line 175, ../src/screen.scss */
+/* line 205, ../src/screen.scss */
 .acatemy .ad:last-child {
   margin-right: 0;
 }
 
-/* line 180, ../src/screen.scss */
+/* line 210, ../src/screen.scss */
 .books {
   overflow: hidden;
   *zoom: 1;
   margin-left: 0;
 }
-/* line 184, ../src/screen.scss */
+/* line 214, ../src/screen.scss */
 .books dl {
   margin-bottom: 0;
 }
-/* line 188, ../src/screen.scss */
+/* line 218, ../src/screen.scss */
 .books dd {
   padding-left: 0;
 }
-/* line 192, ../src/screen.scss */
+/* line 222, ../src/screen.scss */
 .books dt {
   margin-top: 0;
 }
-/* line 196, ../src/screen.scss */
+/* line 226, ../src/screen.scss */
 .books .book {
   overflow: hidden;
   *zoom: 1;
   margin-left: 0;
 }
-/* line 200, ../src/screen.scss */
+/* line 230, ../src/screen.scss */
 .books .book img {
   float: left;
   margin-right: 16px;
 }
-/* line 205, ../src/screen.scss */
+/* line 235, ../src/screen.scss */
 .books .book dd {
   padding-left: 25.641%;
 }
-/* line 209, ../src/screen.scss */
+/* line 239, ../src/screen.scss */
 .books .book .author {
   font-size: 0.722em;
   line-height: 2.077em;
 }
 
-/* line 216, ../src/screen.scss */
+/* line 246, ../src/screen.scss */
 #toc ol {
   margin-bottom: 0;
+}
+
+/* line 251, ../src/screen.scss */
+#table-of-contents {
+  display: none;
+  position: absolute;
+  top: 27px;
+  background: white;
+  padding: 27px 16px 0;
+  border: 2px solid #fff0f0;
 }

@@ -89,14 +89,18 @@ $(document).ready(function() {
     'transitionIn'	: 'elastic',
 		'transitionOut'	: 'elastic'
   })
+  
+  $("a.toc").click(function(){
+    $("#table-of-contents").toggle(200);
+    return false;
+  })
 });
 
 $(window)
-    .sausage({
-        content: function (i, $page) {
-            return '<span class="sausage-span">'
-                + $page.find('.anchor').first().text()
-                + '</span>';
-        }
-    })
-    ;
+.sausage({
+  content: function (i, $page) {
+    return '<span class="sausage-span">'
+    + $page.find('.anchor').first().text()
+    + '</span>';
+  }
+});
