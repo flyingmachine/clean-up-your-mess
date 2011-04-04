@@ -95,12 +95,3 @@ $(document).ready(function() {
     return false;
   })
 });
-
-$(window)
-.sausage({
-  content: function (i, $page) {
-    return '<span class="sausage-span">'
-    + $page.find('.anchor').first().text()
-    + '</span>';
-  }
-});
