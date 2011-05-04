@@ -1,6 +1,8 @@
-module HamlHelper
+class HamlHelper
+  attr_accessor :base_path
+  
   def haml(path)
-    path = path.to_s + ".haml"
+    path = File.join(base_path, "_" + path.to_s + ".haml")
     Haml::Engine.new(File.read(path)).render
   end
   

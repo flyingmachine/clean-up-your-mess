@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'bundler/setup'
+require 'haml'
+require 'tilt'
+require 'helpers/haml_helper'
+
+compile = lambda {
+  haml_base = 'guide/src/haml/'
+  helper = HamlHelper.new
+  template = Tilt::HamlTemplate.new(haml_base + 'layout.haml')
+  
+  # english
+  helper.base_path = haml_base + 'english/'
+  Dir[helper.base_path + '[^_]*.haml'].each do |page_path|
+    rendered = template.render(helper){
+      Tilt::HamlTemplate.new(page_path).render(helper)
+    }
+    
+    basename = File.basename(page_path, '.haml')
+    File.open('guide/public/' + basename + '.html', 'w+'){|f| f.write(rendered)}
+  end
+}
+
+if ARGV.pop == '--watch'
+  
+else
+  compile.call
+end
