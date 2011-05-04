@@ -1,0 +1,6 @@
+Steps to get "compile" working in Ubuntu
+========================================
+
+- sudo apt-get install ruby rubygems libcompass-ruby
+- sudo gem install bundler
+- sudo /var/lib/gems/1.8/bin/bundle install
