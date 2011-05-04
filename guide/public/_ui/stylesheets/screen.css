@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Reset --------------------------------------------------------------*/
-/* line 14, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 14, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,48 +20,48 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-/* line 17, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
   color: black;
   background: white;
 }
 
-/* line 19, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 19, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 21, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 21, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: separate;
   border-spacing: 0;
   vertical-align: middle;
 }
 
-/* line 23, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 23, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 25, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 25, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: "" "";
 }
-/* line 96, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 96, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
 }
 
-/* line 27, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 27, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
 /* HTML5 Reset --------------------------------------------------------------*/
-/* line 108, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 108, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   margin: 0;
   padding: 0;
@@ -72,58 +72,58 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 /* Typography -------------------------------------------------------------- */
 /* The following classes are for use with @extend. */
-/* line 16, ../src/_defaults.scss */
+/* line 16, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 20, ../src/_defaults.scss */
+/* line 20, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 .serif, body {
   font-family: Constantia, Cambria, Georgia, serif;
 }
 
-/* line 23, ../src/_defaults.scss */
+/* line 23, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 .sans {
   font-family: Quicksand, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 26, ../src/_defaults.scss */
+/* line 26, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 .mono, pre, code, tt {
   font-family: "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, Courier, monospace, sans-serif;
 }
 
-/* line 29, ../src/_defaults.scss */
+/* line 29, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 .caps, .allcaps, caption, .smallcaps {
   letter-spacing: 0.1em;
 }
 
-/* line 32, ../src/_defaults.scss */
+/* line 32, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 .allcaps, caption {
   text-transform: uppercase;
 }
 
-/* line 36, ../src/_defaults.scss */
+/* line 36, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 .smallcaps {
   font-variant: small-caps;
 }
 
 /* Body -------------------------------------------------------------- */
-/* line 42, ../src/_defaults.scss */
+/* line 42, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 body {
   color: black;
 }
 
 /* Selected Text -------------------------------------------------------------- */
 /* -moz- must be declared separately */
-/* line 55, ../src/_defaults.scss */
+/* line 55, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 ::-moz-selection {
   color: white;
   background: #005498;
   text-shadow: none;
 }
 
-/* line 60, ../src/_defaults.scss */
+/* line 60, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 ::selection {
   color: white;
   background: #005498;
@@ -131,102 +131,102 @@ body {
 }
 
 /* Links -------------------------------------------------------------- */
-/* line 68, ../src/_defaults.scss */
+/* line 68, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 a:link, a:visited {
   color: #005498;
 }
-/* line 70, ../src/_defaults.scss */
+/* line 70, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 a:link, a:visited, a:hover, a:active {
   outline: none;
 }
-/* line 72, ../src/_defaults.scss */
+/* line 72, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 a:focus, a:hover, a:active {
   color: #984400;
   text-decoration: none;
 }
-/* line 75, ../src/_defaults.scss */
+/* line 75, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 a:focus {
   outline: thin dotted;
 }
 
 /* Headings -------------------------------------------------------------- */
-/* line 80, ../src/_defaults.scss */
+/* line 80, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
 /* Inline -------------------------------------------------------------- */
-/* line 87, ../src/_defaults.scss */
+/* line 87, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 cite, em, dfn, address, i {
   font-style: italic;
 }
 
-/* line 90, ../src/_defaults.scss */
+/* line 90, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 strong, dfn, b {
   font-weight: bold;
 }
 
-/* line 93, ../src/_defaults.scss */
+/* line 93, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 sup, sub {
   font-size: smaller;
   line-height: 0;
 }
 
-/* line 97, ../src/_defaults.scss */
+/* line 97, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 sup {
   vertical-align: super;
 }
 
-/* line 100, ../src/_defaults.scss */
+/* line 100, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 sub {
   vertical-align: sub;
 }
 
-/* line 103, ../src/_defaults.scss */
+/* line 103, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 abbr, acronym {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 107, ../src/_defaults.scss */
+/* line 107, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 ins {
   text-decoration: underline;
 }
 
-/* line 110, ../src/_defaults.scss */
+/* line 110, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 113, ../src/_defaults.scss */
+/* line 113, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 mark {
   background: #ffff99;
   background-color: rgba(255, 255, 0, 0.5);
   text-shadow: none;
 }
 
-/* line 118, ../src/_defaults.scss */
+/* line 118, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 small {
   font-size: 0.667em;
   line-height: 2.25em;
 }
 
-/* line 121, ../src/_defaults.scss */
+/* line 121, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 q {
   font-style: italic;
 }
-/* line 123, ../src/_defaults.scss */
+/* line 123, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 q em {
   font-style: normal;
 }
 
 /* Block -------------------------------------------------------------- */
-/* line 131, ../src/_defaults.scss */
+/* line 131, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 134, ../src/_defaults.scss */
+/* line 134, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 pre {
   margin: 1.5em;
   white-space: pre;
@@ -235,14 +235,14 @@ pre {
   word-wrap: break-word;
 }
 
-/* line 141, ../src/_defaults.scss */
+/* line 141, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 blockquote {
   margin: 1.5em;
   font-style: italic;
 }
 
 /* Replaced -------------------------------------------------------------- */
-/* line 147, ../src/_defaults.scss */
+/* line 147, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 img {
   vertical-align: text-bottom;
   max-width: 100%;
@@ -250,40 +250,40 @@ img {
 }
 
 /* Lists -------------------------------------------------------------- */
-/* line 154, ../src/_defaults.scss */
+/* line 154, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 ol, ul, dl {
   margin-bottom: 1.5em;
   margin-left: 1.5em;
 }
 
-/* line 158, ../src/_defaults.scss */
+/* line 158, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 ol {
   list-style: decimal;
 }
 
-/* line 161, ../src/_defaults.scss */
+/* line 161, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 ul {
   list-style: disc;
 }
-/* line 163, ../src/_defaults.scss */
+/* line 163, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 li ul {
   list-style-type: circle;
 }
 
-/* line 166, ../src/_defaults.scss */
+/* line 166, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 dt {
   margin-top: 1.5em;
   font-style: italic;
 }
 
-/* line 170, ../src/_defaults.scss */
+/* line 170, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 dd {
   padding-left: 1.5em;
 }
 
 /* Tables -------------------------------------------------------------- */
 /* tables still need 'cellspacing="0"' in the markup */
-/* line 176, ../src/_defaults.scss */
+/* line 176, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 table {
   margin-bottom: 1.5em;
   width: 100%;
@@ -291,38 +291,38 @@ table {
   border-spacing: 0;
 }
 
-/* line 182, ../src/_defaults.scss */
+/* line 182, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 table, td, th {
   vertical-align: top;
 }
 
-/* line 185, ../src/_defaults.scss */
+/* line 185, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 th, thead th {
   font-weight: bold;
 }
 
-/* line 188, ../src/_defaults.scss */
+/* line 188, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 th, td, caption {
   padding: 0.75em;
   text-align: left;
   font-weight: normal;
 }
 
-/* line 193, ../src/_defaults.scss */
+/* line 193, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 table, th {
   border-bottom-style: solid;
   border-bottom-width: 0.056em;
   padding-bottom: 0.694em;
 }
 
-/* line 196, ../src/_defaults.scss */
+/* line 196, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 tfoot {
   font-size: 0.778em;
   line-height: 1.929em;
 }
 
 /* Forms -------------------------------------------------------------- */
-/* line 204, ../src/_defaults.scss */
+/* line 204, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 fieldset {
   margin-bottom: 1.5em;
   border-style: solid;
@@ -330,29 +330,29 @@ fieldset {
   padding: 1.444em;
 }
 
-/* line 208, ../src/_defaults.scss */
+/* line 208, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 legend {
   font-size: 1em;
   line-height: 1.5em;
   font-weight: bold;
 }
 
-/* line 212, ../src/_defaults.scss */
+/* line 212, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 input[type="radio"], input[type="checkbox"] {
   vertical-align: baseline;
 }
 
-/* line 215, ../src/_defaults.scss */
+/* line 215, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 label, input[type=button], input[type=submit], button {
   cursor: pointer;
 }
 
-/* line 218, ../src/_defaults.scss */
+/* line 218, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 label {
   font-weight: bold;
 }
 
-/* line 223, ../src/_defaults.scss */
+/* line 223, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 .textinput, textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=time], input[type=number], input[type=range], input[type=search], input[type=color] {
   font-family: Quicksand, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -371,22 +371,22 @@ label {
   height: 2.893em;
 }
 
-/* line 234, ../src/_defaults.scss */
+/* line 234, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 textarea {
   height: 12.536em;
   vertical-align: text-bottom;
 }
 
-/* line 245, ../src/_defaults.scss */
+/* line 245, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 input[type=search] {
   -webkit-appearance: none;
 }
-/* line 247, ../src/_defaults.scss */
+/* line 247, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 input[type=search]::-webkit-search-decoration {
   display: none;
 }
 
-/* line 250, ../src/_defaults.scss */
+/* line 250, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/./_defaults.scss */
 button {
   width: auto;
   overflow: visible;
@@ -441,29 +441,29 @@ button {
 }
 
 /* Layout -------------------------------------------------------------- */
-/* line 29, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-susy-plugin-0.8.1/sass/susy/_vertical_rhythm.scss */
+/* line 29, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-susy-plugin-0.8.1/sass/susy/././_vertical_rhythm.scss */
 body {
   font-size: 112.5%;
   line-height: 1.5em;
 }
 
-/* line 33, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-susy-plugin-0.8.1/sass/susy/_vertical_rhythm.scss */
+/* line 33, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-susy-plugin-0.8.1/sass/susy/././_vertical_rhythm.scss */
 html > body {
   font-size: 18px;
 }
 
-/* line 13, ../src/screen.scss */
+/* line 13, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #page {
   *zoom: 1;
   margin-left: auto;
   margin-right: auto;
   width: 976px;
   max-width: 100%;
-  background-image: url('/images/grid.png?1299212175');
+  background-image: url('/images/grid.png');
   background-repeat: repeat;
   background-position: 16px 0;
 }
-/* line 22, ../../../../../.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 22, /Users/daniel/.rvm/gems/ree-1.8.7-2010.02@cym/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #page:after {
   content: "\0020";
   display: block;
@@ -474,18 +474,18 @@ html > body {
 }
 
 /* Styles -------------------------------------------------------------- */
-/* line 23, ../src/screen.scss */
+/* line 23, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 25, ../src/screen.scss */
+/* line 25, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #nav {
   clear: both;
   margin-right: 1.639%;
   margin-left: 1.639%;
 }
-/* line 28, ../src/screen.scss */
+/* line 28, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #nav ul {
   list-style: none;
   overflow: hidden;
@@ -493,12 +493,12 @@ a {
   margin: 0;
   padding: 0 0 25px;
 }
-/* line 34, ../src/screen.scss */
+/* line 34, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #nav ul li {
   float: left;
   margin: 0;
 }
-/* line 38, ../src/screen.scss */
+/* line 38, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #nav ul li a {
   display: block;
   padding: 0 5px;
@@ -507,17 +507,17 @@ a {
   border-bottom: 2px solid white;
   margin-right: 5px;
 }
-/* line 46, ../src/screen.scss */
+/* line 46, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #nav ul li a:hover {
   border-bottom: 2px solid black;
 }
 
-/* line 54, ../src/screen.scss */
+/* line 54, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #header h1 {
   height: 181px;
 }
 
-/* line 57, ../src/screen.scss */
+/* line 57, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #header h1 a {
   display: block;
   height: 181px;
@@ -525,7 +525,7 @@ a {
   text-indent: -8000px;
 }
 
-/* line 61, ../src/screen.scss */
+/* line 61, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #footer .footer-top:after,
 #navigation:after,
 #header:after {
@@ -533,7 +533,7 @@ a {
   *zoom: 1;
 }
 
-/* line 64, ../src/screen.scss */
+/* line 64, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #content h2.preface {
   clear: both;
   font-size: 1.667em;
@@ -544,7 +544,7 @@ a {
   padding-top: 0;
 }
 
-/* line 72, ../src/screen.scss */
+/* line 72, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #content h2 {
   clear: both;
   clear: both;
@@ -559,7 +559,7 @@ a {
   margin-left: 0;
 }
 
-/* line 82, ../src/screen.scss */
+/* line 82, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #content h3 {
   clear: both;
   clear: both;
@@ -574,7 +574,7 @@ a {
   padding-left: 1.639%;
 }
 
-/* line 93, ../src/screen.scss */
+/* line 93, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #content .hr {
   display: block;
   clear: both;
@@ -582,17 +582,17 @@ a {
   background: url(../images/bg_hr.png) no-repeat 0 14px;
 }
 
-/* line 94, ../src/screen.scss */
+/* line 94, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #content img.right {
   float: right;
 }
 
-/* line 96, ../src/screen.scss */
+/* line 96, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 h2, h3, h4, h5 {
   font-style: normal;
 }
 
-/* line 98, ../src/screen.scss */
+/* line 98, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .main-content {
   display: inline;
   float: left;
@@ -601,7 +601,7 @@ h2, h3, h4, h5 {
   margin-left: 1.639%;
 }
 
-/* line 103, ../src/screen.scss */
+/* line 103, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .side-content {
   display: inline;
   float: left;
@@ -614,7 +614,7 @@ h2, h3, h4, h5 {
   #margin-left: -16px;
 }
 
-/* line 109, ../src/screen.scss */
+/* line 109, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .spread {
   clear: both;
   margin-right: 1.639%;
@@ -626,7 +626,7 @@ h2, h3, h4, h5 {
 -----------------------------------------------------------------------------------------------*/
 /* 2.6 Footer
 -----------------------------------------------------------------------------------------------*/
-/* line 122, ../src/screen.scss */
+/* line 122, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #footer {
   clear: both;
   padding-top: 25px;
@@ -640,7 +640,7 @@ h2, h3, h4, h5 {
 -----------------------------------------------------------------------------------------------*/
 /* 3.2 Preface
 -----------------------------------------------------------------------------------------------*/
-/* line 137, ../src/screen.scss */
+/* line 137, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .preface-row {
   overflow: hidden;
   *zoom: 1;
@@ -650,14 +650,14 @@ h2, h3, h4, h5 {
   margin-right: 1.639%;
   #margin-left: -16px;
 }
-/* line 142, ../src/screen.scss */
+/* line 142, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .preface-row .preface-image {
   display: inline;
   float: left;
   width: 31.148%;
   margin-right: 1.639%;
 }
-/* line 145, ../src/screen.scss */
+/* line 145, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .preface-row .preface-text {
   display: inline;
   float: left;
@@ -670,68 +670,68 @@ h2, h3, h4, h5 {
 }
 
 /* Stroop Effect */
-/* line 153, ../src/screen.scss */
+/* line 153, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .red {
   color: red;
 }
 
-/* line 154, ../src/screen.scss */
+/* line 154, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .green {
   color: green;
 }
 
-/* line 155, ../src/screen.scss */
+/* line 155, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .blue {
   color: blue;
 }
 
-/* line 156, ../src/screen.scss */
+/* line 156, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .orange {
   color: orange;
 }
 
-/* line 157, ../src/screen.scss */
+/* line 157, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .yellow {
   color: #eee177;
 }
 
-/* line 158, ../src/screen.scss */
+/* line 158, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .purple {
   color: purple;
 }
 
-/* line 160, ../src/screen.scss */
+/* line 160, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 img.topalign {
   margin-top: 6px;
 }
 
 /* List */
-/* line 171, ../src/screen.scss */
+/* line 171, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .examples {
   background: url(../../_media/images/examples-bg.png) repeat-x 0 110px;
   padding-bottom: 17px;
   margin-top: -5px;
 }
 
-/* line 177, ../src/screen.scss */
+/* line 177, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .marginal {
   font-size: 0.667em;
   line-height: 2.25em;
 }
 
-/* line 181, ../src/screen.scss */
+/* line 181, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .caption {
   font-size: 12px;
   font-style: italic;
   text-align: center;
 }
 
-/* line 187, ../src/screen.scss */
+/* line 187, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .flyers {
   margin-bottom: 1.5em;
 }
 
-/* line 191, ../src/screen.scss */
+/* line 191, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .kittens {
   clear: both;
   margin-right: 1.639%;
@@ -739,7 +739,7 @@ img.topalign {
   margin-bottom: 1.5em;
 }
 
-/* line 196, ../src/screen.scss */
+/* line 196, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .acatemy {
   clear: both;
   margin-right: 1.639%;
@@ -747,62 +747,62 @@ img.topalign {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 200, ../src/screen.scss */
+/* line 200, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .acatemy .ad {
   margin-right: 16px;
   /* not sure why we can't do 16 */
   float: left;
 }
-/* line 205, ../src/screen.scss */
+/* line 205, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .acatemy .ad:last-child {
   margin-right: 0;
 }
 
-/* line 210, ../src/screen.scss */
+/* line 210, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books {
   overflow: hidden;
   *zoom: 1;
   margin-left: 0;
 }
-/* line 214, ../src/screen.scss */
+/* line 214, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books dl {
   margin-bottom: 0;
 }
-/* line 218, ../src/screen.scss */
+/* line 218, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books dd {
   padding-left: 0;
 }
-/* line 222, ../src/screen.scss */
+/* line 222, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books dt {
   margin-top: 0;
 }
-/* line 226, ../src/screen.scss */
+/* line 226, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books .book {
   overflow: hidden;
   *zoom: 1;
   margin-left: 0;
 }
-/* line 230, ../src/screen.scss */
+/* line 230, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books .book img {
   float: left;
   margin-right: 16px;
 }
-/* line 235, ../src/screen.scss */
+/* line 235, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books .book dd {
   padding-left: 25.641%;
 }
-/* line 239, ../src/screen.scss */
+/* line 239, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 .books .book .author {
   font-size: 0.722em;
   line-height: 2.077em;
 }
 
-/* line 246, ../src/screen.scss */
+/* line 246, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #toc ol {
   margin-bottom: 0;
 }
 
-/* line 251, ../src/screen.scss */
+/* line 251, /Users/daniel/web_sites/clean-up-your-mess/guide/src/scss/screen.scss */
 #table-of-contents {
   display: none;
   position: absolute;
